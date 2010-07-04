@@ -3,3 +3,2709 @@
 Processing HomeController#index (for 127.0.0.1 at 2010-07-03 13:32:50) [GET]
 Rendering home/index
 Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 13:34:22) [GET]
+Rendering home/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 13:40:26) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 78ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 13:41:29) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 13:45:34) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 13:45:39) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 13:46:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:01:49) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `videos' for #<ActionView::Base:0x2347b44>) on line #14 of app/views/home/index.html.erb:
+11:     <h2>My videos</h2>
+12:     	<p>you tube thumbs go here</p>
+13: 		<ul>
+14: 			<%- videos.each do |video| -%>
+15: 				<li></li>
+16: 			<%- end -%>
+17: 		</ul>
+
+    app/views/home/index.html.erb:14
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.7ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:02:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `videos' for #<ActionView::Base:0x173854c>) on line #14 of app/views/home/index.html.erb:
+11:     <h2>My videos</h2>
+12:     	<p>you tube thumbs go here</p>
+13: 		<ul>
+14: 			<%- videos.each do |video| -%>
+15: 				<li></li>
+16: 			<%- end -%>
+17: 		</ul>
+
+    app/views/home/index.html.erb:14
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:02:18) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `videos' for #<ActionView::Base:0x22aa704>) on line #14 of app/views/home/index.html.erb:
+11:     <h2>My videos</h2>
+12:     	<p>you tube thumbs go here</p>
+13: 		<ul>
+14: 			<%- videos.each do |video| -%>
+15: 				<li></li>
+16: 			<%- end -%>
+17: 		</ul>
+
+    app/views/home/index.html.erb:14
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:02:20) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `videos' for #<ActionView::Base:0x1747010>) on line #14 of app/views/home/index.html.erb:
+11:     <h2>My videos</h2>
+12:     	<p>you tube thumbs go here</p>
+13: 		<ul>
+14: 			<%- videos.each do |video| -%>
+15: 				<li></li>
+16: 			<%- end -%>
+17: 		</ul>
+
+    app/views/home/index.html.erb:14
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:02:54) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `videos' for #<ActionView::Base:0x22d26f0>) on line #14 of app/views/home/index.html.erb:
+11:     <h2>My videos</h2>
+12:     	<p>you tube thumbs go here</p>
+13: 		<ul>
+14: 			<%- videos.each do |video| -%>
+15: 				<li></li>
+16: 			<%- end -%>
+17: 		</ul>
+
+    app/views/home/index.html.erb:14
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:03:10) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-03 14:25:32) [GET]
+
+SyntaxError (/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:19: syntax error, unexpected tSTRING_BEG, expecting kDO or '{' or '('
+...+ deliciousQuery + blogQuery "'"
+                              ^):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (31.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:26:06) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:42:in `yql_search'
+  app/controllers/home_controller.rb:25:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:26:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 62ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:28:34) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 64ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:29:00) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:42:in `yql_search'
+  app/controllers/home_controller.rb:25:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (115.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:29:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 61ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:30:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:32:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:32:29) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:36:18) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:38:07) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:39:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:39:07) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:40:40) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 98ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:47:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 493ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:48:46) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 62ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:49:13) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:43:in `yql_search'
+  app/controllers/home_controller.rb:26:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (114.3ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:49:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 406ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:50:01) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:43:in `yql_search'
+  app/controllers/home_controller.rb:26:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:50:44) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 211ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:50:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 51ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:51:05) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 606ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:51:28) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 613ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:53:02) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:43:in `yql_search'
+  app/controllers/home_controller.rb:26:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (115.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:53:18) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:43:in `yql_search'
+  app/controllers/home_controller.rb:26:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:55:18) [GET]
+
+NoMethodError (undefined method `+@' for "\"":String):
+  app/controllers/home_controller.rb:5:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:56:09) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:43:in `yql_search'
+  app/controllers/home_controller.rb:26:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 14:58:15) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:19:22) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:44:in `yql_search'
+  app/controllers/home_controller.rb:27:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:26:36) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:48:in `yql_search'
+  app/controllers/home_controller.rb:31:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:26:39) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:48:in `yql_search'
+  app/controllers/home_controller.rb:31:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (118.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:36:04) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:49:in `yql_search'
+  app/controllers/home_controller.rb:32:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (45.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:36:07) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:49:in `yql_search'
+  app/controllers/home_controller.rb:32:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:36:08) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:49:in `yql_search'
+  app/controllers/home_controller.rb:32:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:36:31) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 429ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:37:21) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:49:in `yql_search'
+  app/controllers/home_controller.rb:32:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:37:34) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:49:in `yql_search'
+  app/controllers/home_controller.rb:32:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:38:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 417ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:40:06) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 229ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:40:39) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 881ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:41:54) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:42:in `yql_search'
+  app/controllers/home_controller.rb:25:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:42:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 649ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:44:08) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:41:in `yql_search'
+  app/controllers/home_controller.rb:24:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 15:52:50) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-03 15:54:12) [GET]
+
+SyntaxError (/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ti%20where%20queries%3D'select%20description%20from%20rss(5)...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...ueries%3D'select%20description%20from%20rss(5)%20where%20url...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...3D'select%20description%20from%20rss(5)%20where%20url%3D%22h...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...ect%20description%20from%20rss(5)%20where%20url%3D%22http%3A...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...iption%20from%20rss(5)%20where%20url%3D%22http%3A%2F%2Fgdata...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...%20from%20rss(5)%20where%20url%3D%22http%3A%2F%2Fgdata.youtu...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...from%20rss(5)%20where%20url%3D%22http%3A%2F%2Fgdata.youtube....
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...rss(5)%20where%20url%3D%22http%3A%2F%2Fgdata.youtube.com%2Ff...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...(5)%20where%20url%3D%22http%3A%2F%2Fgdata.youtube.com%2Ffeed...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20where%20url%3D%22http%3A%2F%2Fgdata.youtube.com%2Ffeeds%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20url%3D%22http%3A%2F%2Fgdata.youtube.com%2Ffeeds%2Fbase%2F...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...2F%2Fgdata.youtube.com%2Ffeeds%2Fbase%2Fusers%2Fchrisheilman...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...ata.youtube.com%2Ffeeds%2Fbase%2Fusers%2Fchrisheilmann%2Fupl...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...ube.com%2Ffeeds%2Fbase%2Fusers%2Fchrisheilmann%2Fuploads%3Fa...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...2Fbase%2Fusers%2Fchrisheilmann%2Fuploads%3Falt%3Drss%26v%3D2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...sers%2Fchrisheilmann%2Fuploads%3Falt%3Drss%26v%3D2%26orderby...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...Fchrisheilmann%2Fuploads%3Falt%3Drss%26v%3D2%26orderby%3Dpub...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...heilmann%2Fuploads%3Falt%3Drss%26v%3D2%26orderby%3Dpublished...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...mann%2Fuploads%3Falt%3Drss%26v%3D2%26orderby%3Dpublished%26c...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%2Fuploads%3Falt%3Drss%26v%3D2%26orderby%3Dpublished%26clien...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...%3Falt%3Drss%26v%3D2%26orderby%3Dpublished%26client%3Dytapi-...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%26v%3D2%26orderby%3Dpublished%26client%3Dytapi-youtube-prof...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...26orderby%3Dpublished%26client%3Dytapi-youtube-profile%22%3B...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...y%3Dpublished%26client%3Dytapi-youtube-profile%22%3Bselect%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...pi-youtube-profile%22%3Bselect%20farm%2Cid%2Cowner%2Csecret%...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...ube-profile%22%3Bselect%20farm%2Cid%2Cowner%2Csecret%2Cserve...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...rofile%22%3Bselect%20farm%2Cid%2Cowner%2Csecret%2Cserver%2Ct...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...2%3Bselect%20farm%2Cid%2Cowner%2Csecret%2Cserver%2Ctitle%20f...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...t%20farm%2Cid%2Cowner%2Csecret%2Cserver%2Ctitle%20from%20fli...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...2Cid%2Cowner%2Csecret%2Cserver%2Ctitle%20from%20flickr.photo...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...wner%2Csecret%2Cserver%2Ctitle%20from%20flickr.photos.search...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...secret%2Cserver%2Ctitle%20from%20flickr.photos.search%20wher...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...server%2Ctitle%20from%20flickr.photos.search%20where%20user_...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...20flickr.photos.search%20where%20user_id%3D%2211414938%40N00...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...hotos.search%20where%20user_id%3D%2211414938%40N00%22%3Bsele...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...os.search%20where%20user_id%3D%2211414938%40N00%22%3Bselect%...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20user_id%3D%2211414938%40N00%22%3Bselect%20title%2Clink%20...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...D%2211414938%40N00%22%3Bselect%20title%2Clink%20from%20rss%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...4938%40N00%22%3Bselect%20title%2Clink%20from%20rss%20where%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...N00%22%3Bselect%20title%2Clink%20from%20rss%20where%20url%3D...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...3Bselect%20title%2Clink%20from%20rss%20where%20url%3D%22http...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...ct%20title%2Clink%20from%20rss%20where%20url%3D%22http%3A%2F...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...le%2Clink%20from%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...ink%20from%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds.delic...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20from%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds.deliciou...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds.delicious.com%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...rss%20where%20url%3D%22http%3A%2F%2Ffeeds.delicious.com%2Fv2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20where%20url%3D%22http%3A%2F%2Ffeeds.delicious.com%2Fv2%2F...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20url%3D%22http%3A%2F%2Ffeeds.delicious.com%2Fv2%2Frss%2Fco...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%2F%2Ffeeds.delicious.com%2Fv2%2Frss%2Fcodepo8%3Fcount%3D10%...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...feeds.delicious.com%2Fv2%2Frss%2Fcodepo8%3Fcount%3D10%22%3Bs...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...cious.com%2Fv2%2Frss%2Fcodepo8%3Fcount%3D10%22%3Bselect%20ti...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...m%2Fv2%2Frss%2Fcodepo8%3Fcount%3D10%22%3Bselect%20title%2Cli...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...2%2Frss%2Fcodepo8%3Fcount%3D10%22%3Bselect%20title%2Clink%20...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...depo8%3Fcount%3D10%22%3Bselect%20title%2Clink%20from%20rss%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...count%3D10%22%3Bselect%20title%2Clink%20from%20rss%20where%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...D10%22%3Bselect%20title%2Clink%20from%20rss%20where%20url%3D...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...3Bselect%20title%2Clink%20from%20rss%20where%20url%3D%22http...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...ct%20title%2Clink%20from%20rss%20where%20url%3D%22http%3A%2F...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...le%2Clink%20from%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...ink%20from%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds.feedb...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20from%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds.feedburn...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds.feedburner.com%...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...rss%20where%20url%3D%22http%3A%2F%2Ffeeds.feedburner.com%2Fw...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20where%20url%3D%22http%3A%2F%2Ffeeds.feedburner.com%2Fwait...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20url%3D%22http%3A%2F%2Ffeeds.feedburner.com%2Fwait-till-i%...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%2Ffeeds.feedburner.com%2Fwait-till-i%2FgwZf%22'&format=json...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...urner.com%2Fwait-till-i%2FgwZf%22'&format=json&env=store%3A%...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tSTRING_BEG, expecting kEND
+...r.com%2Fwait-till-i%2FgwZf%22'&format=json&env=store%3A%2F%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected ')', expecting kEND
+...Falltableswithkeys&callback='))
+                              ^):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (114.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-03 15:55:25) [GET]
+
+SyntaxError (/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+....yahooapis.com/v1/public/yql?q=select%20*%20from%20query.mul...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: unknown type of %string
+.../v1/public/yql?q=select%20*%20from%20query.multi%20where%20q...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected $end
+.../v1/public/yql?q=select%20*%20from%20query.multi%20where%20q...
+                              ^):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-03 15:56:54) [GET]
+
+SyntaxError (/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ti%20where%20queries%3D'select%20description%20from%20rss(5)...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...ueries%3D'select%20description%20from%20rss(5)%20where%20url...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...3D'select%20description%20from%20rss(5)%20where%20url%3D%22h...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...ect%20description%20from%20rss(5)%20where%20url%3D%22http%3A...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...iption%20from%20rss(5)%20where%20url%3D%22http%3A%2F%2Fgdata...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...%20from%20rss(5)%20where%20url%3D%22http%3A%2F%2Fgdata.youtu...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...from%20rss(5)%20where%20url%3D%22http%3A%2F%2Fgdata.youtube....
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...rss(5)%20where%20url%3D%22http%3A%2F%2Fgdata.youtube.com%2Ff...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...(5)%20where%20url%3D%22http%3A%2F%2Fgdata.youtube.com%2Ffeed...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20where%20url%3D%22http%3A%2F%2Fgdata.youtube.com%2Ffeeds%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20url%3D%22http%3A%2F%2Fgdata.youtube.com%2Ffeeds%2Fbase%2F...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...2F%2Fgdata.youtube.com%2Ffeeds%2Fbase%2Fusers%2Fchrisheilman...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...ata.youtube.com%2Ffeeds%2Fbase%2Fusers%2Fchrisheilmann%2Fupl...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...ube.com%2Ffeeds%2Fbase%2Fusers%2Fchrisheilmann%2Fuploads%3Fa...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...2Fbase%2Fusers%2Fchrisheilmann%2Fuploads%3Falt%3Drss%26v%3D2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...sers%2Fchrisheilmann%2Fuploads%3Falt%3Drss%26v%3D2%26orderby...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...Fchrisheilmann%2Fuploads%3Falt%3Drss%26v%3D2%26orderby%3Dpub...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...heilmann%2Fuploads%3Falt%3Drss%26v%3D2%26orderby%3Dpublished...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...mann%2Fuploads%3Falt%3Drss%26v%3D2%26orderby%3Dpublished%26c...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%2Fuploads%3Falt%3Drss%26v%3D2%26orderby%3Dpublished%26clien...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...%3Falt%3Drss%26v%3D2%26orderby%3Dpublished%26client%3Dytapi-...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%26v%3D2%26orderby%3Dpublished%26client%3Dytapi-youtube-prof...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...26orderby%3Dpublished%26client%3Dytapi-youtube-profile%22%3B...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...y%3Dpublished%26client%3Dytapi-youtube-profile%22%3Bselect%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...pi-youtube-profile%22%3Bselect%20farm%2Cid%2Cowner%2Csecret%...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...ube-profile%22%3Bselect%20farm%2Cid%2Cowner%2Csecret%2Cserve...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...rofile%22%3Bselect%20farm%2Cid%2Cowner%2Csecret%2Cserver%2Ct...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...2%3Bselect%20farm%2Cid%2Cowner%2Csecret%2Cserver%2Ctitle%20f...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...t%20farm%2Cid%2Cowner%2Csecret%2Cserver%2Ctitle%20from%20fli...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...2Cid%2Cowner%2Csecret%2Cserver%2Ctitle%20from%20flickr.photo...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...wner%2Csecret%2Cserver%2Ctitle%20from%20flickr.photos.search...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...secret%2Cserver%2Ctitle%20from%20flickr.photos.search%20wher...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...server%2Ctitle%20from%20flickr.photos.search%20where%20user_...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...20flickr.photos.search%20where%20user_id%3D%2211414938%40N00...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...hotos.search%20where%20user_id%3D%2211414938%40N00%22%3Bsele...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...os.search%20where%20user_id%3D%2211414938%40N00%22%3Bselect%...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20user_id%3D%2211414938%40N00%22%3Bselect%20title%2Clink%20...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...D%2211414938%40N00%22%3Bselect%20title%2Clink%20from%20rss%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...4938%40N00%22%3Bselect%20title%2Clink%20from%20rss%20where%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...N00%22%3Bselect%20title%2Clink%20from%20rss%20where%20url%3D...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...3Bselect%20title%2Clink%20from%20rss%20where%20url%3D%22http...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...ct%20title%2Clink%20from%20rss%20where%20url%3D%22http%3A%2F...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...le%2Clink%20from%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...ink%20from%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds.delic...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20from%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds.deliciou...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds.delicious.com%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...rss%20where%20url%3D%22http%3A%2F%2Ffeeds.delicious.com%2Fv2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20where%20url%3D%22http%3A%2F%2Ffeeds.delicious.com%2Fv2%2F...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20url%3D%22http%3A%2F%2Ffeeds.delicious.com%2Fv2%2Frss%2Fco...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%2F%2Ffeeds.delicious.com%2Fv2%2Frss%2Fcodepo8%3Fcount%3D10%...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...feeds.delicious.com%2Fv2%2Frss%2Fcodepo8%3Fcount%3D10%22%3Bs...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...cious.com%2Fv2%2Frss%2Fcodepo8%3Fcount%3D10%22%3Bselect%20ti...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...m%2Fv2%2Frss%2Fcodepo8%3Fcount%3D10%22%3Bselect%20title%2Cli...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...2%2Frss%2Fcodepo8%3Fcount%3D10%22%3Bselect%20title%2Clink%20...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...depo8%3Fcount%3D10%22%3Bselect%20title%2Clink%20from%20rss%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...count%3D10%22%3Bselect%20title%2Clink%20from%20rss%20where%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...D10%22%3Bselect%20title%2Clink%20from%20rss%20where%20url%3D...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...3Bselect%20title%2Clink%20from%20rss%20where%20url%3D%22http...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...ct%20title%2Clink%20from%20rss%20where%20url%3D%22http%3A%2F...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...le%2Clink%20from%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...ink%20from%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds.feedb...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20from%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds.feedburn...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tIDENTIFIER, expecting kEND
+...%20rss%20where%20url%3D%22http%3A%2F%2Ffeeds.feedburner.com%...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...rss%20where%20url%3D%22http%3A%2F%2Ffeeds.feedburner.com%2Fw...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20where%20url%3D%22http%3A%2F%2Ffeeds.feedburner.com%2Fwait...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%20url%3D%22http%3A%2F%2Ffeeds.feedburner.com%2Fwait-till-i%...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...%2Ffeeds.feedburner.com%2Fwait-till-i%2FgwZf%22'&format=json...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tCONSTANT, expecting kEND
+...urner.com%2Fwait-till-i%2FgwZf%22'&format=json&env=store%3A%...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected tSTRING_BEG, expecting kEND
+...r.com%2Fwait-till-i%2FgwZf%22'&format=json&env=store%3A%2F%2...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/controllers/home_controller.rb:31: syntax error, unexpected ')', expecting kEND):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:00:05) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 782ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:06:02) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 684ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:13:14) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (uninitialized class variable @@yql_results in ActionView::Base::CompiledTemplates) on line #11 of app/views/home/index.html.erb:
+8:     	<p>flickr thumb photos go here</p>
+9: 		<%- count = -1  -%>
+10: 
+11: 		<%- @@yql_results.each do |photo| -%>
+12: 			<%- count = count + 1  -%>
+13: 			<% if count == 0 %>
+14: 				<% is_active = " active" %>
+
+    app/views/home/index.html.erb:11
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (44.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:13:31) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #18 of app/views/home/index.html.erb:
+15: 			<% end %>
+16: 
+17: 							<div class="entry">
+18: 								<p><%= photo['results']['photo']['title'] %></p>
+19: 								<p>
+20: 							</div>
+21: 
+
+    app/views/home/index.html.erb:18:in `[]'
+    app/views/home/index.html.erb:18
+    app/views/home/index.html.erb:11:in `each'
+    app/views/home/index.html.erb:11
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:14:05) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #18 of app/views/home/index.html.erb:
+15: 			<% end %>
+16: 
+17: 							<div class="entry">
+18: 								<p><%= photo['results'][2]['title'] %></p>
+19: 								<p>
+20: 							</div>
+21: 
+
+    app/views/home/index.html.erb:18:in `[]'
+    app/views/home/index.html.erb:18
+    app/views/home/index.html.erb:11:in `each'
+    app/views/home/index.html.erb:11
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:15:44) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #18 of app/views/home/index.html.erb:
+15: 			<% end %>
+16: 
+17: 							<div class="entry">
+18: 								<p><%= photo['photo']['title'] %></p>
+19: 								<p>
+20: 							</div>
+21: 
+
+    app/views/home/index.html.erb:18:in `[]'
+    app/views/home/index.html.erb:18
+    app/views/home/index.html.erb:11:in `each'
+    app/views/home/index.html.erb:11
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:17:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 773ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:29:55) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #10 of app/views/home/index.html.erb:
+7:     <h2>My Photos</h2>
+8: 		<%- @photos.each do |photo| -%>
+9: 			<li>
+10: 				<a href="http://www.flickr.com/photos/codepo8/<%= photo['id'] %>/">
+11: 					<img src="http://farm<%= photo['farm'] %>.static.flickr.com/'<%= photo['server'] %> '/<%= photo['id'] %>_<%= photo['secret'] %>_s.jpg" 
+12: 						alt="<%= photo['title'] %>">
+13: 				</a>
+
+    app/views/home/index.html.erb:10:in `[]'
+    app/views/home/index.html.erb:10
+    app/views/home/index.html.erb:8:in `each'
+    app/views/home/index.html.erb:8
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:30:15) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #11 of app/views/home/index.html.erb:
+8: 		<%- @photos.each do |photo| -%>
+9: 			<li>
+10: 				<a href="http://www.flickr.com/photos/codepo8/<%= photo[id] %>/">
+11: 					<img src="http://farm<%= photo['farm'] %>.static.flickr.com/'<%= photo['server'] %> '/<%= photo['id'] %>_<%= photo['secret'] %>_s.jpg" 
+12: 						alt="<%= photo['title'] %>">
+13: 				</a>
+14: 			</li>
+
+    app/views/home/index.html.erb:11:in `[]'
+    app/views/home/index.html.erb:11
+    app/views/home/index.html.erb:8:in `each'
+    app/views/home/index.html.erb:8
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (127.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:31:10) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert Array into Integer) on line #10 of app/views/home/index.html.erb:
+7:     <h2>My Photos</h2>
+8: 		<%- @photos.each do |photo| -%>
+9: 			<li>
+10: 				<a href="http://www.flickr.com/photos/codepo8/<%= photo[photo]['id'] %>/">
+11: 					<img src="http://farm<%= photo['farm'] %>.static.flickr.com/'<%= photo['server'] %> '/<%= photo['id'] %>_<%= photo['secret'] %>_s.jpg" 
+12: 						alt="<%= photo['title'] %>">
+13: 				</a>
+
+    app/views/home/index.html.erb:10:in `[]'
+    app/views/home/index.html.erb:10
+    app/views/home/index.html.erb:8:in `each'
+    app/views/home/index.html.erb:8
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:31:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #10 of app/views/home/index.html.erb:
+7:     <h2>My Photos</h2>
+8: 		<%- @photos.each do |photo| -%>
+9: 			<li>
+10: 				<a href="http://www.flickr.com/photos/codepo8/<%= photo['id'] %>/">
+11: 					<img src="http://farm<%= photo['farm'] %>.static.flickr.com/'<%= photo['server'] %> '/<%= photo['id'] %>_<%= photo['secret'] %>_s.jpg" 
+12: 						alt="<%= photo['title'] %>">
+13: 				</a>
+
+    app/views/home/index.html.erb:10:in `[]'
+    app/views/home/index.html.erb:10
+    app/views/home/index.html.erb:8:in `each'
+    app/views/home/index.html.erb:8
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:31:53) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #9 of app/views/home/index.html.erb:
+6:     	<p>delicious links go here</p>
+7:     <h2>My Photos</h2>
+8: 		<%- @photos.each do |photo| -%>
+9: 			<li><%= photo['id'] %>
+10: 			</li>
+11: 			
+12: 		<%- end -%>
+
+    app/views/home/index.html.erb:9:in `[]'
+    app/views/home/index.html.erb:9
+    app/views/home/index.html.erb:8:in `each'
+    app/views/home/index.html.erb:8
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:32:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #9 of app/views/home/index.html.erb:
+6:     	<p>delicious links go here</p>
+7:     <h2>My Photos</h2>
+8: 		<%- @photos.each do |photo| -%>
+9: 			<li><%= photo['title'] %>
+10: 			</li>
+11: 			
+12: 		<%- end -%>
+
+    app/views/home/index.html.erb:9:in `[]'
+    app/views/home/index.html.erb:9
+    app/views/home/index.html.erb:8:in `each'
+    app/views/home/index.html.erb:8
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (126.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:32:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 803ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:35:39) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 695ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:36:10) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 814ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:36:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 693ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:37:39) [GET]
+
+NoMethodError (undefined method `photo' for #<Array:0x21a3d4c>):
+  app/controllers/home_controller.rb:27:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (48.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:37:48) [GET]
+
+NoMethodError (undefined method `photo' for #<Hash:0x27015c8>):
+  app/controllers/home_controller.rb:27:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:38:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #9 of app/views/home/index.html.erb:
+6:     	<p>delicious links go here</p>
+7:     <h2>My Photos</h2>
+8: 		<%- @photos.each do |photo| -%>
+9: 			<li><strong><%= photo['title'] %></strong>
+10: 			</li>
+11: 			
+12: 		<%- end -%>
+
+    app/views/home/index.html.erb:9:in `[]'
+    app/views/home/index.html.erb:9
+    app/views/home/index.html.erb:8:in `each'
+    app/views/home/index.html.erb:8
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:38:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1956ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:39:16) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 781ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:39:50) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #10 of app/views/home/index.html.erb:
+7:     <h2>My Photos</h2>
+8: 		<ul>
+9: 		<%- @photos.each do |photo| -%>
+10: 			<li><strong><%= photo.first['title'] %></strong>
+11: 			</li>
+12: 			<li>finish</li>
+13: 		<%- end -%>
+
+    app/views/home/index.html.erb:10:in `[]'
+    app/views/home/index.html.erb:10
+    app/views/home/index.html.erb:9:in `each'
+    app/views/home/index.html.erb:9
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (45.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:39:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 853ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:40:34) [GET]
+
+NameError (undefined local variable or method `photo' for #<HomeController:0x1952094>):
+  app/controllers/home_controller.rb:27:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (112.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:40:47) [GET]
+
+NoMethodError (undefined method `photo' for #<Array:0x25ee85c>):
+  app/controllers/home_controller.rb:27:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:41:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 691ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:41:36) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 674ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:42:09) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 799ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:42:29) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 713ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:43:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #10 of app/views/home/index.html.erb:
+7:     <h2>My Photos</h2>
+8: 		<ul>
+9: 		<%- @photos.each do |photo| -%>
+10: 			<li><strong><%= photo['title'] %></strong>
+11: 			</li>
+12: 			<li><em>finish</em></li>
+13: 		<%- end -%>
+
+    app/views/home/index.html.erb:10:in `[]'
+    app/views/home/index.html.erb:10
+    app/views/home/index.html.erb:9:in `each'
+    app/views/home/index.html.erb:9
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (44.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:44:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 891ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:44:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5281ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:45:13) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 803ms (View: 44, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:45:21) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 961ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:45:28) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 972ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:45:42) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #10 of app/views/home/index.html.erb:
+7:     <h2>My Photos</h2>
+8: 		<ul>
+9: 		<%- @photos.each do |photo| -%>
+10: 			<li><strong><%= photo['title'] %></strong>
+11: 			</li>
+12: 			<li><em>finish</em></li>
+13: 		<%- end -%>
+
+    app/views/home/index.html.erb:10:in `[]'
+    app/views/home/index.html.erb:10
+    app/views/home/index.html.erb:9:in `each'
+    app/views/home/index.html.erb:9
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:45:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 793ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:48:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 957ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:49:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 666ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:51:03) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 818ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:51:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 737ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:52:06) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 691ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:52:33) [GET]
+
+TypeError (can't convert String into Integer):
+  app/controllers/home_controller.rb:46:in `[]'
+  app/controllers/home_controller.rb:46:in `yql_search'
+  app/controllers/home_controller.rb:26:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:52:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 779ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:54:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 740ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:54:22) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `photo' for #<Array:0x222dccc>) on line #9 of app/views/home/index.html.erb:
+6:     	<p>delicious links go here</p>
+7:     <h2>My Photos</h2>
+8: 		<ul>
+9: 		<%- @photos.photo.each do |photo| -%>
+10: 			<li><%= photo %>
+11: 			</li>
+12: 			<li >finish</li>
+
+    app/views/home/index.html.erb:9
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:55:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #10 of app/views/home/index.html.erb:
+7:     <h2>My Photos</h2>
+8: 		<ul>
+9: 		<%# @photos.photo.each do |photo| %>
+10: 			<li><%# photo %><%= @photos['photo'] %>
+11: 			</li>
+12: 			<li >finish</li>
+13: 		<%# end %>
+
+    app/views/home/index.html.erb:10:in `[]'
+    app/views/home/index.html.erb:10
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:56:18) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 806ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:57:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 662ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:57:21) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 785ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:57:41) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 698ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:57:52) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 778ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:58:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (bad value for range) on line #10 of app/views/home/index.html.erb:
+7:     <h2>My Photos</h2>
+8: 		<ul>
+9: 		<%# @photos.photo.each do |photo| %>
+10: 			<li><%# photo %><%= @photos.first..['title']%>
+11: 			</li>
+12: 			<li >finish</li>
+13: 		<%# end %>
+
+    app/views/home/index.html.erb:10
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:58:42) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (bad value for range) on line #10 of app/views/home/index.html.erb:
+7:     <h2>My Photos</h2>
+8: 		<ul>
+9: 		<%# @photos.photo.each do |photo| %>
+10: 			<li><%# photo %><%= @photos..['title']%>
+11: 			</li>
+12: 			<li >finish</li>
+13: 		<%# end %>
+
+    app/views/home/index.html.erb:10
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:58:53) [GET]
+Rendering template within layouts/application
+Rendering home/index
+ERROR: compiling _run_erb_app47views47home47index46html46erb RAISED compile error
+/Users/heathertanner/Sites/24-ways-2009/app/views/home/index.html.erb:10: syntax error, unexpected '['
+...tput_buffer.concat(( @photos.['title']).to_s); @output_buffe...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/views/home/index.html.erb:10: syntax error, unexpected ']', expecting ')'
+...fer.concat(( @photos.['title']).to_s); @output_buffer.concat...
+                              ^
+Function body:           def _run_erb_app47views47home47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div class=\"yui-g\">\n  <div class=\"yui-u first\">\n    <h2>My blog</h2>\n    <p>\tBlog entries go here</p>\n    <h2>My links</h2>\n    \t<p>delicious links go here</p>\n    <h2>My Photos</h2>\n\t\t<ul>\n\t\t"
+
+
+
+
+
+
+
+; @output_buffer.concat "\n\t\t\t<li>"
+; @output_buffer.concat(( @photos.['title']).to_s); @output_buffer.concat "\n\t\t\t</li>\n\t\t\t<li >finish</li>\n\t\t"
+
+
+; @output_buffer.concat "\n</ul>    \t<p>flickr thumb photos go here</p>\n  </div>\n  <div class=\"yui-u\">\n    <h2>My videos</h2>\n    \t<p>you tube thumbs go here</p>\n\t\t<ul>\n"
+
+
+
+
+
+
+;  @videos.each do |video| 
+@output_buffer.concat "\t\t\t\t<li></li>\n"
+;  end 
+@output_buffer.concat "\t\t</ul>\n\t\t<p><pre>\n\t\t</pre></p>\n  </div>\n</div>\n"
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/heathertanner/Sites/24-ways-2009/app/views/home/index.html.erb:31:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/webrick.rb:14:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/heathertanner/Sites/24-ways-2009/app/views/home/index.html.erb:10: syntax error, unexpected '['
+...tput_buffer.concat(( @photos.['title']).to_s); @output_buffe...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/views/home/index.html.erb:10: syntax error, unexpected ']', expecting ')'
+...fer.concat(( @photos.['title']).to_s); @output_buffer.concat...
+                              ^) on line #10 of app/views/home/index.html.erb:
+7:     <h2>My Photos</h2>
+8: 		<ul>
+9: 		<%# @photos.photo.each do |photo| %>
+10: 			<li><%# photo %><%= @photos.['title']%>
+11: 			</li>
+12: 			<li >finish</li>
+13: 		<%# end %>
+
+    app/views/home/index.html.erb:31:in `compile!'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 16:59:08) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 703ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:09:55) [GET]
+
+TypeError (can't convert String into Integer):
+  app/controllers/home_controller.rb:46:in `[]'
+  app/controllers/home_controller.rb:46:in `yql_search'
+  app/controllers/home_controller.rb:26:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:10:09) [GET]
+
+TypeError (can't convert String into Integer):
+  app/controllers/home_controller.rb:46:in `[]'
+  app/controllers/home_controller.rb:46:in `yql_search'
+  app/controllers/home_controller.rb:26:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:10:20) [GET]
+
+TypeError (can't convert String into Integer):
+  app/controllers/home_controller.rb:46:in `[]'
+  app/controllers/home_controller.rb:46:in `yql_search'
+  app/controllers/home_controller.rb:26:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:11:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 736ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:12:44) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #10 of app/views/home/index.html.erb:
+7:     <h2>My Photos</h2>
+8: 		<ul>
+9: 		<%- @yql_results.each do |photo| -%>
+10: 			<li><%= photo['count']%>
+11: 			</li>
+12: 			<li><%= photo['lang']%></li>
+13: 			<li >finish</li>
+
+    app/views/home/index.html.erb:10:in `[]'
+    app/views/home/index.html.erb:10
+    app/views/home/index.html.erb:9:in `each'
+    app/views/home/index.html.erb:9
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (127.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:14:08) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 750ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:17:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #18 of app/views/home/index.html.erb:
+15:     <h2>My Photos</h2>
+16: 		<ul>
+17: 		<%- @yql_results.each do |article| -%>
+18: 			<li><%= article['title']%>
+19: 			</li>
+20: 			<li>&nbps;</li>
+21: 			<li >finish</li>
+
+    app/views/home/index.html.erb:18:in `[]'
+    app/views/home/index.html.erb:18
+    app/views/home/index.html.erb:17:in `each'
+    app/views/home/index.html.erb:17
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:18:08) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (can't convert String into Integer) on line #11 of app/views/home/index.html.erb:
+8:     <h2>My Photos</h2>
+9: 		<ul>
+10: 		<%- @yql_results.each do |article| -%>
+11: 			<li><%= article['title']%>
+12: 			</li>
+13: 			<li>&nbps;</li>
+14: 			<li >finish</li>
+
+    app/views/home/index.html.erb:11:in `[]'
+    app/views/home/index.html.erb:11
+    app/views/home/index.html.erb:10:in `each'
+    app/views/home/index.html.erb:10
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (129.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:18:26) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1376ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:18:58) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #10 of app/views/home/index.html.erb:
+7:     	<p>delicious links go here</p>
+8:     <h2>My Photos</h2>
+9: 		<ul>
+10: 		<%- @yql_results.each do |article| -%>
+11: 			<li><%= article['title']%>
+12: 			</li>
+13: 			<li>&nbps;</li>
+
+    app/views/home/index.html.erb:10
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:19:14) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 734ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:19:17) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 738ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:20:10) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 724ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:20:42) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/home_controller.rb:47:in `yql_search'
+  app/controllers/home_controller.rb:26:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (117.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:21:08) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #10 of app/views/home/index.html.erb:
+7:     	<p>delicious links go here</p>
+8:     <h2>My Photos</h2>
+9: 		<ul>
+10: 		<%- @yql_results.each do |article| -%>
+11: 			<li><%= article['title']%>
+12: 			</li>
+13: 			<li>&nbsp;</li>
+
+    app/views/home/index.html.erb:10
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:39:45) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.first):
+  app/controllers/home_controller.rb:27:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:42:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `article' for #<ActionView::Base:0x278d7e4>) on line #11 of app/views/home/index.html.erb:
+8:     <h2>My Photos</h2>
+9: 		<ul>
+10: 		<%- @photos.each do |photo| -%>
+11: 			<li><%= article['title']%>
+12: 			</li>
+13: 			<li>&nbsp;</li>
+14: 			<li >finish</li>
+
+    app/views/home/index.html.erb:11
+    app/views/home/index.html.erb:10:in `each'
+    app/views/home/index.html.erb:10
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:43:14) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1370ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:49:31) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1454ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:49:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1458ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:49:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1259ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:50:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1424ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:51:08) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1388ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:51:37) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1638ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:51:47) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1485ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:52:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1451ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:53:15) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1493ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 17:54:19) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 1476ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 18:01:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 2111ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 18:03:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 2596ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-03 18:08:03) [GET]

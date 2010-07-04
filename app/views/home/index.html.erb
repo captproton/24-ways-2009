@@ -1,2 +1,46 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div class="yui-g">
+  <div class="yui-u first">
+    <h2>My blog</h2>
+	<ul id="delicious" >
+	<%- @blog_articles.each do |article| -%>
+		<li>
+		             <a href="<%= article['link'] %>/">
+						<%= article['title'] %>
+					</a>
+		</li>
+	<%- end -%>
+	</ul>    	
+    <h2>My links</h2>
+		<ul id="delicious" >
+		<%- @links.each do |link| -%>
+			<li>
+			             <a href="<%= link['link'] %>/">
+							<%= link['title'] %>
+						</a>
+			</li>
+		<%- end -%>
+		</ul>    	
+    <h2>My Photos</h2>
+		<ul id="flickr" >
+		<%- @photos.each do |photo| -%>
+			<li>
+			             <a href="http://www.flickr.com/photos/codepo8/<%= photo['id'] %>/">
+			             	<img src="http://farm<%= photo['farm'] %>.static.flickr.com/<%= photo['server'] %>/<%= photo['id'] %>_<%= photo['secret'] %>_s.jpg" 
+								alt="<%= photo['title'] %>">
+						</a>
+			</li>
+		<%- end -%>
+		</ul>    	
+  </div>
+  <div class="yui-u">
+    <h2>My videos</h2>
+    	<p>you tube thumbs go here</p>
+		<ul>
+			<%- @videos.each do |video| -%>
+				<li></li>
+			<%- end -%>
+		</ul>
+		<p><pre>
+		</pre></p>
+  </div>
+</div>
