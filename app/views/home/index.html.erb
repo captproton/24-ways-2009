@@ -34,11 +34,44 @@
   </div>
   <div class="yui-u">
     <h2>My videos</h2>
-    	<p>you tube thumbs go here</p>
+
 		<ul>
 			<%- @videos.each do |video| -%>
-				<li></li>
+			<li>
+				<div style="color: #000000;font-family: Arial, Helvetica, sans-serif;     font-size:12px; font-size: 12px; width: 100%;">
+					<table cellspacing="0" cellpadding="0" border="0">
+						<colgroup><col width="20%"><col width="50%">
+						<col width="30%"></colgroup>
+						<tbody>
+							<tr>
+								<td  valign="top" rowspan="2">
+									<div style="border: 1px solid #999999; margin: 0px 10px 5px 0px;">
+										<a href="<%= video['group']['player']['url'] %>">
+											<img alt="" src="<%= video['group']['thumbnail'].first['url']%>">
+										</a>
+									</div>
+								</td>
+								<td  valign="top">
+									<div style="font-size: 12px; font-weight: bold;">
+										<a style="font-size: 15px; font-weight: bold;                  font-decoration: none;" href="<%= video['group']['player']['url'] %>"><%= video['title'] %></a>
+										<br>
+									</div>
+									<div style="font-size: 12px; margin: 3px 0px;"><span><%= video['group']['description']['content'] %></span></div></td>
+			<td style="font-size: 11px; line-height: 1.4em; padding-left: 20px;             padding-top: 1px;"  valign="top"><div><span style="color: #666666; font-size: 11px;">From:</span>
+			<a href="<%= video['author']['uri'] %>"><%= video['author']['name'] %></a></div>
+			<div><span style="color: #666666; font-size: 11px;">Views:</span>
+			<%= video['statistics']['viewCount'] %></div>
+			<div style="white-space: nowrap;text-align: left">
+
+			</div>
+			<div style="font-size: 11px;"><%= video['rating'].first['numRaters'] %>
+			<span style="color: #666666; font-size: 11px;">ratings</span></div></td></tr>
+			<tr><td><span style="color: #666666; font-size: 11px;">Time:</span>
+			<span style="color: #000000; font-size: 11px; font-weight: bold;"><%= video['group']['thumbnail'].first['time'] %></span></td>
+			<td style="font-size: 11px; padding-left: 20px;"><span style="color: #666666; font-size: 11px;"><%= video['group']['category']['content'] %></span>
+			</td></tr></tbody></table></div></li>
 			<%- end -%>
+			
 		</ul>
 		<p><pre>
 		</pre></p>
