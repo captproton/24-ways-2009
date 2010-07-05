@@ -4,9 +4,11 @@
 	<ul id="delicious" >
 	<%- @blog_articles.each do |article| -%>
 		<li>
-		             <a href="<%= article['link'] %>/">
-						<%= article['title'] %>
-					</a>
+		             <!-- <a href="<%= article['link'] %>/">
+		             						<%= article['title'] %>
+		             					</a> -->
+					<%= link_to article['title'], root_path(:service => "blog", :url => URI.escape(article['link'])) %>
+					
 		</li>
 	<%- end -%>
 	</ul>    	
@@ -14,9 +16,10 @@
 		<ul id="delicious" >
 		<%- @links.each do |link| -%>
 			<li>
-			             <a href="<%= link['link'] %>/">
-							<%= link['title'] %>
-						</a>
+	             <!-- <a href="<%= link['link'] %>/">
+					<%= link['title'] %>
+				</a> -->
+				<%= link_to link['title'], root_path(:service => "delicious", :url => URI.escape(link['link'])) %>				
 			</li>
 		<%- end -%>
 		</ul>    	
@@ -24,10 +27,9 @@
 		<ul id="flickr" >
 		<%- @photos.each do |photo| -%>
 			<li>
-			             <a href="http://www.flickr.com/photos/codepo8/<%= photo['id'] %>/">
-			             	<img src="http://farm<%= photo['farm'] %>.static.flickr.com/<%= photo['server'] %>/<%= photo['id'] %>_<%= photo['secret'] %>_s.jpg" 
-								alt="<%= photo['title'] %>">
-						</a>
+				<%= link_to image_tag("http://farm#{photo['farm']}.static.flickr.com/#{photo['server']}/#{photo['id']}_#{photo['secret']}_s.jpg"), 
+					root_path(:service => "flickr", 
+						:url => "http://www.flickr.com/photos/codepo8/" + URI.escape(photo['id'])) %>				
 			</li>
 		<%- end -%>
 		</ul>    	
@@ -46,19 +48,25 @@
 							<tr>
 								<td  valign="top" rowspan="2">
 									<div style="border: 1px solid #999999; margin: 0px 10px 5px 0px;">
-										<a href="<%= video['group']['player']['url'] %>">
+										<%= link_to image_tag(video['group']['thumbnail'].first['url']), 
+											root_path(:service => "youtube", 
+												:url => URI.escape(video['group']['player']['url'])) %>				
+										
+										<!-- <a href="<%= video['group']['player']['url'] %>">
 											<img alt="" src="<%= video['group']['thumbnail'].first['url']%>">
-										</a>
+										</a> -->
 									</div>
 								</td>
 								<td  valign="top">
 									<div style="font-size: 12px; font-weight: bold;">
-										<a style="font-size: 15px; font-weight: bold;                  font-decoration: none;" href="<%= video['group']['player']['url'] %>"><%= video['title'] %></a>
-										<br>
+										<%= link_to video['title'], root_path(:service => "youtube", :url => URI.escape(video['group']['player']['url'])), :style => "font-size: 15px; font-weight: bold;font-decoration: none;" %>
 									</div>
 									<div style="font-size: 12px; margin: 3px 0px;"><span><%= video['group']['description']['content'] %></span></div></td>
 			<td style="font-size: 11px; line-height: 1.4em; padding-left: 20px;             padding-top: 1px;"  valign="top"><div><span style="color: #666666; font-size: 11px;">From:</span>
-			<a href="<%= video['author']['uri'] %>"><%= video['author']['name'] %></a></div>
+				<%= link_to video['author']['name'], root_path(:service => "youtube", 
+					:url => URI.escape(video['author']['uri'])) %>
+			
+			</div>
 			<div><span style="color: #666666; font-size: 11px;">Views:</span>
 			<%= video['statistics']['viewCount'] %></div>
 			<div style="white-space: nowrap;text-align: left">
