@@ -30,7 +30,12 @@
 			<li>
 				<%= link_to image_tag("http://farm#{photo['farm']}.static.flickr.com/#{photo['server']}/#{photo['id']}_#{photo['secret']}_s.jpg"), 
 					photos_path(:service => "flickr", 
-						:source => "http://www.flickr.com/photos/codepo8/" + URI.escape(photo['id'], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))) %>				
+						:source => "http://www.flickr.com/photos/codepo8/" + URI.escape(photo['id'], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]")), 
+						:photo_id => photo['id'],
+						:farm => photo['farm'],
+						:server => photo['server'],
+						:secret => photo['secret']
+						) %>				
 			</li>
 		<%- end -%>
 		</ul>    	
