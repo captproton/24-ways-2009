@@ -1,0 +1,11 @@
+<h1>Blog#show</h1>
+<p>Find me in app/views/blog/show.html.erb</p>
+<%= @source %>
+<p>===</p>
+<h1><%= @blog['title'] %></h1>
+	<p>Decription:  <%=  @blog['description'] %></p>
+	<p>Story:</p>
+	<p><%= @blog['encoded'] %></p>
+<%# @blog.each do |article| %>
+	<p><%#= article['title'] %></p>
+<%# end %>

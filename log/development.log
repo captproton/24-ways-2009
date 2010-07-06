@@ -4714,3 +4714,2072 @@ Processing HomeController#index (for 127.0.0.1 at 2010-07-05 12:57:17) [GET]
 Rendering template within layouts/application
 Rendering home/index
 Completed in 13727ms (View: 53, DB: 0) | 200 OK [http://localhost/?service=youtube&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-G5h6MKzyDw%26feature%3Dyoutube_gdata]
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-07-05 16:57:52) [GET]
+
+NameError (uninitialized constant BlogsController):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (131.1ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-07-05 16:57:55) [GET]
+
+NameError (uninitialized constant BlogsController):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (28.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-07-05 16:58:02) [GET]
+
+NameError (uninitialized constant BlogsController):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (29.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-07-05 16:58:27) [GET]
+
+NameError (uninitialized constant BlogsController):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (31.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#index (for 127.0.0.1 at 2010-07-05 17:05:58) [GET]
+Rendering template within layouts/application
+Rendering blog/index
+Completed in 70ms (View: 69, DB: 0) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:06:39) [GET]
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:06:43) [GET]
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/blog/show]
+
+
+Processing BlogController#mine (for 127.0.0.1 at 2010-07-05 17:07:07) [GET]
+
+ActionController::UnknownAction (No action responded to mine. Actions: index and show):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 17:08:19) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6185ms (View: 59, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:08:27) [GET]
+  Parameters: {"service"=>"blog", "url"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FBSsZMK_29EY%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 75ms (View: 73, DB: 0) | 200 OK [http://localhost/blog?service=blog&url=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FBSsZMK_29EY%252F]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 17:08:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `blog_show_path' for #<ActionView::Base:0x2665934>) on line #10 of app/views/home/index.html.erb:
+7: 		             <!-- <a href="<%= article['link'] %>/">
+8: 		             						<%= article['title'] %>
+9: 		             					</a> -->
+10: 					<%= link_to article['title'], blog_show_path(:service => "blog", :url => URI.escape(article['link'], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))) %>
+11: 					
+12: 		</li>
+13: 	<%- end -%>
+
+    app/views/home/index.html.erb:10
+    app/views/home/index.html.erb:5:in `each'
+    app/views/home/index.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (118.2ms)
+Rendered rescues/_request_and_response (2.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 17:09:14) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4541ms (View: 54, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:09:26) [GET]
+  Parameters: {"service"=>"blog", "url"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FRKx85y7AvBo%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?service=blog&url=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FRKx85y7AvBo%252F]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 17:09:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7401ms (View: 54, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:14:05) [GET]
+  Parameters: {"url"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+
+ActionView::TemplateError (undefined method `url' for #<HashWithIndifferentAccess:0x225a448>) on line #3 of app/views/blog/show.html.erb:
+1: <h1>Blog#show</h1>
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: url is <%= params.url %>
+
+    app/views/blog/show.html.erb:3
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 17:16:46) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5624ms (View: 51, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:16:54) [GET]
+  Parameters: {"url"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2F8_D9_9KxEJM%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+
+ActionView::TemplateError (undefined local variable or method `query_parameters' for #<ActionView::Base:0x2231de0>) on line #3 of app/views/blog/show.html.erb:
+1: <h1>Blog#show</h1>
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: url is <%= query_parameters %>
+
+    app/views/blog/show.html.erb:3
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (115.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:51:04) [GET]
+  Parameters: {"url"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2F8_D9_9KxEJM%2F"}
+
+NameError (undefined local variable or method `query_parameters' for #<BlogController:0x250c9ac>):
+  app/controllers/blog_controller.rb:6:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:51:52) [GET]
+  Parameters: {"url"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2F8_D9_9KxEJM%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/blog?url=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252F8_D9_9KxEJM%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:52:21) [GET]
+  Parameters: {"url"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2F8_D9_9KxEJM%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?url=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252F8_D9_9KxEJM%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:52:30) [GET]
+  Parameters: {"url"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2F8_D9_9KxEJM%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/blog/show?url=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252F8_D9_9KxEJM%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:52:45) [GET]
+  Parameters: {"url"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2F8_D9_9KxEJM%2F"}
+
+NoMethodError (undefined method `url' for #<HashWithIndifferentAccess:0x1874780>):
+  app/controllers/blog_controller.rb:6:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:52:52) [GET]
+  Parameters: {"url"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2F8_D9_9KxEJM%2F"}
+
+NoMethodError (undefined method `source' for #<HashWithIndifferentAccess:0x266b6a4>):
+  app/controllers/blog_controller.rb:6:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (34.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:52:57) [GET]
+  Parameters: {"url"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2F8_D9_9KxEJM%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/blog/show?url=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252F8_D9_9KxEJM%252F]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 17:53:36) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5813ms (View: 140, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-07-05 17:53:57) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+
+SyntaxError (/Users/heathertanner/Sites/24-ways-2009/app/controllers/blog_controller.rb:9: syntax error, unexpected $end, expecting kEND):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (38.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:54:24) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:54:45) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:54:50) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:54:56) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:57:31) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:57:41) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+
+NoMethodError (undefined method `source' for #<String:0x1814da8>):
+  app/controllers/blog_controller.rb:6:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 17:58:01) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 18:03:38) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+
+NameError (undefined local variable or method `query_string' for #<BlogController:0x25ff6ac>):
+  app/controllers/blog_controller.rb:6:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 18:03:53) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 18:04:06) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+
+NoMethodError (undefined method `source' for #<Hash:0x222bad0>):
+  app/controllers/blog_controller.rb:8:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 18:04:21) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 18:23:23) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+
+NameError (undefined local variable or method `missing' for #<BlogController:0x176432c>):
+  app/controllers/blog_controller.rb:9:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (117.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 18:23:32) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 19:13:56) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 19:17:25) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 19:17:36) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 19:21:50) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 19:22:34) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/blog_controller.rb:7:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 19:22:50) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+
+ArgumentError (wrong number of arguments (2 for 1)):
+  app/controllers/blog_controller.rb:7:in `unescape'
+  app/controllers/blog_controller.rb:7:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (119.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 19:23:58) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+
+ArgumentError (wrong number of arguments (2 for 1)):
+  app/controllers/blog_controller.rb:8:in `unescape'
+  app/controllers/blog_controller.rb:8:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 19:28:41) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 19:32:04) [GET]
+
+JSON::ParserError (705: unexpected token at '<HEAD><TITLE>Moved</TITLE></HEAD><BODY><A HREF="http://gateway.2wire.net/xslt?PAGE=HURL01">Moved</A></BODY>
+'):
+  /opt/local/lib/ruby/gems/1.8/gems/json_pure-1.4.3/lib/json/common.rb:146:in `parse'
+  /opt/local/lib/ruby/gems/1.8/gems/json_pure-1.4.3/lib/json/common.rb:146:in `parse'
+  app/controllers/home_controller.rb:40:in `yql_search'
+  app/controllers/home_controller.rb:24:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (108.7ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 20:06:14) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4993ms (View: 88, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:09:53) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+
+NameError (undefined local variable or method `yql_query' for #<BlogController:0x19069c8>):
+  app/controllers/blog_controller.rb:8:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:10:11) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:20:00) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:20:24) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+
+NameError (undefined local variable or method `yql_query' for #<BlogController:0x2254afc>):
+  app/controllers/blog_controller.rb:11:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (34.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:20:36) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/application_controller.rb:23:in `yql_search'
+  app/controllers/blog_controller.rb:11:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:22:02) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/blog_controller.rb:34:in `yql_search'
+  app/controllers/blog_controller.rb:11:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:22:15) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 725ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:23:19) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/blog_controller.rb:34:in `yql_search'
+  app/controllers/blog_controller.rb:11:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:23:35) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 729ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:24:32) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 691ms (View: 5, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:25:53) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 656ms (View: 2, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:27:02) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 663ms (View: 2, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:28:59) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #6 of app/views/blog/show.html.erb:
+3: <%= @source %>
+4: <p>===</p>
+5: <%= @blog_article %>
+6: <%- @blog.each do |article| -%>
+7: 	<p>article['title']</p>
+8: <%- end -%>
+
+    app/views/blog/show.html.erb:6
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (55.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:30:44) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #6 of app/views/blog/show.html.erb:
+3: <%= @source %>
+4: <p>===</p>
+5: <%= @blog_article %>
+6: <%- @blog.each do |article| -%>
+7: 	<p>article.first['title']</p>
+8: <%- end -%>
+
+    app/views/blog/show.html.erb:6
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:32:48) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+
+NameError (uninitialized constant BlogController::Blog):
+  app/controllers/blog_controller.rb:12:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (39.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:33:25) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 687ms (View: 7, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:33:46) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 1145ms (View: 7, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:34:06) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+
+ActionView::TemplateError (can't convert String into Integer) on line #6 of app/views/blog/show.html.erb:
+3: <%= @source %>
+4: <p>===</p>
+5: <%- @blog.each do |article| -%>
+6: 	<p><%= article['title'] %></p>
+7: <%- end -%>
+
+    app/views/blog/show.html.erb:6:in `[]'
+    app/views/blog/show.html.erb:6
+    app/views/blog/show.html.erb:5:in `each'
+    app/views/blog/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:35:01) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 1869ms (View: 7, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:35:33) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 672ms (View: 7, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:35:39) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+
+ActionView::TemplateError (undefined method `title' for #<Array:0x19502e4>) on line #5 of app/views/blog/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <%= @blog.first.title %>
+6: <%# @blog.each do |article| %>
+7: 	<p><%#= article['title'] %></p>
+8: <%# end %>
+
+    app/views/blog/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (124.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:35:57) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+
+ActionView::TemplateError (can't convert String into Integer) on line #5 of app/views/blog/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <%= @blog.first['title'] %>
+6: <%# @blog.each do |article| %>
+7: 	<p><%#= article['title'] %></p>
+8: <%# end %>
+
+    app/views/blog/show.html.erb:5:in `[]'
+    app/views/blog/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:36:45) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 740ms (View: 7, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:36:56) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 652ms (View: 7, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:37:10) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+
+ActionView::TemplateError (undefined method `second' for "item":String) on line #5 of app/views/blog/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <%= @blog.first.first.second['title'] %>
+6: <%# @blog.each do |article| %>
+7: 	<p><%#= article['title'] %></p>
+8: <%# end %>
+
+    app/views/blog/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:37:21) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 673ms (View: 7, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:37:33) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 736ms (View: 7, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:37:55) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 661ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:38:53) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+ERROR: compiling _run_erb_app47views47blog47show46html46erb RAISED compile error
+/Users/heathertanner/Sites/24-ways-2009/app/views/blog/show.html.erb:5: syntax error, unexpected '['
+...r.concat(( @blog.first.first.['title'] ).to_s); @output_buff...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/views/blog/show.html.erb:5: syntax error, unexpected ']', expecting ')'
+...(( @blog.first.first.['title'] ).to_s); @output_buffer.conca...
+                              ^
+Function body:           def _run_erb_app47views47blog47show46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Blog#show</h1>\n<p>Find me in app/views/blog/show.html.erb</p>\n"
+
+; @output_buffer.concat(( @source ).to_s); @output_buffer.concat "\n<p>===</p>\n"
+
+; @output_buffer.concat(( @blog.first.first.['title'] ).to_s); @output_buffer.concat "\n"
+; @output_buffer.concat "\n\t<p>"
+; @output_buffer.concat "</p>\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/heathertanner/Sites/24-ways-2009/app/views/blog/show.html.erb:11:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/webrick.rb:14:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/heathertanner/Sites/24-ways-2009/app/views/blog/show.html.erb:5: syntax error, unexpected '['
+...r.concat(( @blog.first.first.['title'] ).to_s); @output_buff...
+                              ^
+/Users/heathertanner/Sites/24-ways-2009/app/views/blog/show.html.erb:5: syntax error, unexpected ']', expecting ')'
+...(( @blog.first.first.['title'] ).to_s); @output_buffer.conca...
+                              ^) on line #5 of app/views/blog/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <%= @blog.first.first.['title'] %>
+6: <%# @blog.each do |article| %>
+7: 	<p><%#= article['title'] %></p>
+8: <%# end %>
+
+    app/views/blog/show.html.erb:11:in `compile!'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (135.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:38:59) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 694ms (View: 8, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:44:11) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 1634ms (View: 7, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:45:48) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 702ms (View: 7, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:48:28) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 729ms (View: 8, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:48:45) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 864ms (View: 7, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 20:50:46) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 877ms (View: 8, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 21:04:42) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FI-VMVqP8RFU%2F"}
+Rendering template within layouts/application
+Rendering blog/show
+Completed in 689ms (View: 1, DB: 0) | 200 OK [http://localhost/blog?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FI-VMVqP8RFU%252F]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:06:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5857ms (View: 64, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:08:53) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5790ms (View: 58, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 21:09:02) [GET]
+Rendering template within layouts/application
+Rendering blog/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/blog/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <h1><%= @blog['title'] %></h1>
+6: 	<p>Decription:  <%=  @blog['description'] %></p>
+7: 	<p>Story:</p>
+8: 	<p><%= @blog['encoded'] %></p>
+
+    app/views/blog/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:11:36) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (uninitialized constant ActionView::Base::CompiledTemplates::APP_CONFIG) on line #5 of app/views/layouts/application.html.erb:
+2:  "http://www.w3.org/TR/html4/strict.dtd">
+3: <html>
+4: <head>
+5:    <title>Christian Heilmann on the web <%= APP_CONFIG[:name] %> <%= (RAILS_ENV != 'production') ? ": #{RAILS_ENV.titlecase} " : nil %>: <%= h(yield(:title)) %></title>
+6:    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+7:    <link rel="stylesheet" href="http://yui.yahooapis.com/2.8.0/build/reset-fonts-grids/reset-fonts-grids.css" type="text/css">
+8:    <style type="text/css" media="screen">
+
+    app/views/layouts/application.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:12:55) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5753ms (View: 61, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:13:26) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7902ms (View: 115, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:14:53) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.first):
+  app/controllers/home_controller.rb:27:in `index'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:15:03) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4424ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:15:17) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3857ms (View: 54, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:15:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4946ms (View: 58, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:17:53) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4200ms (View: 64, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 21:18:17) [GET]
+Rendering template within layouts/application
+Rendering blog/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/blog/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <h1><%= @blog['title'] %></h1>
+6: 	<p>Decription:  <%=  @blog['description'] %></p>
+7: 	<p>Story:</p>
+8: 	<p><%= @blog['encoded'] %></p>
+
+    app/views/blog/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 21:20:09) [GET]
+Rendering template within layouts/application
+Rendering blog/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/blog/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <h1><%= @blog['title'] %></h1>
+6: 	<p>Decription:  <%=  @blog['description'] %></p>
+7: 	<p>Story:</p>
+8: 	<p><%= @blog['encoded'] %></p>
+
+    app/views/blog/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogController#show (for 127.0.0.1 at 2010-07-05 21:21:14) [GET]
+Rendering template within layouts/application
+Rendering blog/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/blog/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <h1><%= @blog['title'] %></h1>
+6: 	<p>Decription:  <%=  @blog['description'] %></p>
+7: 	<p>Story:</p>
+8: 	<p><%= @blog['encoded'] %></p>
+
+    app/views/blog/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-05 21:21:33) [GET]
+
+ActionController::RoutingError (No route matches "/blogs" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing BlogsController#index (for 127.0.0.1 at 2010-07-05 21:22:21) [GET]
+Rendering template within layouts/application
+Rendering blogs/index
+Completed in 920ms (View: 13, DB: 0) | 200 OK [http://localhost/blogs]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:22:30) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `blog_path' for #<ActionView::Base:0x25eaf68>) on line #11 of app/views/home/index.html.erb:
+8: 		             <!-- <a href="<%= article['link'] %>/">
+9: 		             						<%= article['title'] %>
+10: 		             					</a> -->
+11: 					<%= link_to article['title'], blog_path(:source => URI.escape(article['link'], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))) %>
+12: 					
+13: 		</li>
+14: 	<%- end -%>
+
+    app/views/home/index.html.erb:11
+    app/views/home/index.html.erb:6:in `each'
+    app/views/home/index.html.erb:6
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (106.7ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:22:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `blogs_path' for #<ActionView::Base:0x23b331c>) on line #11 of app/views/home/index.html.erb:
+8: 		             <!-- <a href="<%= article['link'] %>/">
+9: 		             						<%= article['title'] %>
+10: 		             					</a> -->
+11: 					<%= link_to article['title'], blogs_path(:source => URI.escape(article['link'], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))) %>
+12: 					
+13: 		</li>
+14: 	<%- end -%>
+
+    app/views/home/index.html.erb:11
+    app/views/home/index.html.erb:6:in `each'
+    app/views/home/index.html.erb:6
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:23:37) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4489ms (View: 124, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BlogsController#show (for 127.0.0.1 at 2010-07-05 21:23:44) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FBSsZMK_29EY%2F"}
+Rendering template within layouts/application
+Rendering blogs/show
+Completed in 686ms (View: 6, DB: 0) | 200 OK [http://localhost/blogs?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FBSsZMK_29EY%252F]
+
+
+Processing BlogsController#show (for 127.0.0.1 at 2010-07-05 21:24:42) [GET]
+Rendering template within layouts/application
+Rendering blogs/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/blogs/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <h1><%= @blog['title'] %></h1>
+6: 	<p>Decription:  <%=  @blog['description'] %></p>
+7: 	<p>Story:</p>
+8: 	<p><%= @blog['encoded'] %></p>
+
+    app/views/blogs/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:24:47) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4486ms (View: 48, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-05 21:24:54) [GET]
+
+ActionController::RoutingError (No route matches "/blog" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-05 21:25:10) [GET]
+
+ActionController::RoutingError (No route matches "/blog" with {:method=>:get}):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:25:14) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5398ms (View: 123, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BlogsController#show (for 127.0.0.1 at 2010-07-05 21:25:22) [GET]
+Rendering template within layouts/application
+Rendering blogs/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/blogs/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <h1><%= @blog['title'] %></h1>
+6: 	<p>Decription:  <%=  @blog['description'] %></p>
+7: 	<p>Story:</p>
+8: 	<p><%= @blog['encoded'] %></p>
+
+    app/views/blogs/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogsController#show (for 127.0.0.1 at 2010-07-05 21:26:32) [GET]
+Rendering template within layouts/application
+Rendering blogs/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/blogs/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <h1><%= @blog['title'] %></h1>
+6: 	<p>Decription:  <%=  @blog['description'] %></p>
+7: 	<p>Story:</p>
+8: 	<p><%= @blog['encoded'] %></p>
+
+    app/views/blogs/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (45.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogsController#show (for 127.0.0.1 at 2010-07-05 21:26:43) [GET]
+Rendering template within layouts/application
+Rendering blogs/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/blogs/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <h1><%= @blog['title'] %></h1>
+6: 	<p>Decription:  <%=  @blog['description'] %></p>
+7: 	<p>Story:</p>
+8: 	<p><%= @blog['encoded'] %></p>
+
+    app/views/blogs/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogsController#show (for 127.0.0.1 at 2010-07-05 21:26:53) [GET]
+Rendering template within layouts/application
+Rendering blogs/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/blogs/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <h1><%= @blog['title'] %></h1>
+6: 	<p>Decription:  <%=  @blog['description'] %></p>
+7: 	<p>Story:</p>
+8: 	<p><%= @blog['encoded'] %></p>
+
+    app/views/blogs/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (39.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogsController#show (for 127.0.0.1 at 2010-07-05 21:27:29) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FRKx85y7AvBo%2F"}
+Rendering template within layouts/application
+Rendering blogs/show
+Completed in 654ms (View: 2, DB: 0) | 200 OK [http://localhost/blogs?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FRKx85y7AvBo%252F]
+
+
+Processing BlogsController#show (for 127.0.0.1 at 2010-07-05 21:30:14) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FBSsZMK_29EY%2F"}
+Rendering template within layouts/application
+Rendering blogs/show
+Completed in 815ms (View: 1, DB: 0) | 200 OK [http://localhost/blogs?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FBSsZMK_29EY%252F]
+
+
+Processing BlogsController#show (for 127.0.0.1 at 2010-07-05 21:30:19) [GET]
+Rendering template within layouts/application
+Rendering blogs/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/blogs/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <h1><%= @blog['title'] %></h1>
+6: 	<p>Decription:  <%=  @blog['description'] %></p>
+7: 	<p>Story:</p>
+8: 	<p><%= @blog['encoded'] %></p>
+
+    app/views/blogs/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (44.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlogsController#show (for 127.0.0.1 at 2010-07-05 21:31:35) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FBSsZMK_29EY%2F"}
+Rendering template within layouts/application
+Rendering blogs/show
+Completed in 713ms (View: 1, DB: 0) | 200 OK [http://localhost/blogs?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FBSsZMK_29EY%252F]
+
+
+Processing BlogsController#show (for 127.0.0.1 at 2010-07-05 21:31:44) [GET]
+Rendering template within layouts/application
+Rendering blogs/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/blogs/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <h1><%= @blog['title'] %></h1>
+6: 	<p>Decription:  <%=  @blog['description'] %></p>
+7: 	<p>Story:</p>
+8: 	<p><%= @blog['encoded'] %></p>
+
+    app/views/blogs/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:32:16) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `blog_path' for #<ActionView::Base:0x26c5be0>) on line #11 of app/views/home/index.html.erb:
+8: 		             <!-- <a href="<%= article['link'] %>/">
+9: 		             						<%= article['title'] %>
+10: 		             					</a> -->
+11: 					<%= link_to article['title'], blog_path(:source => URI.escape(article['link'], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))) %>
+12: 					
+13: 		</li>
+14: 	<%- end -%>
+
+    app/views/home/index.html.erb:11
+    app/views/home/index.html.erb:6:in `each'
+    app/views/home/index.html.erb:6
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (107.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:32:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4961ms (View: 57, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BlogsController#show (for 127.0.0.1 at 2010-07-05 21:32:54) [GET]
+Rendering template within layouts/application
+Rendering blogs/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/blogs/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <h1><%= @blog['title'] %></h1>
+6: 	<p>Decription:  <%=  @blog['description'] %></p>
+7: 	<p>Story:</p>
+8: 	<p><%= @blog['encoded'] %></p>
+
+    app/views/blogs/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (114.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:33:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 8007ms (View: 75, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BlogsController#show (for 127.0.0.1 at 2010-07-05 21:33:24) [GET]
+Rendering template within layouts/application
+Rendering blogs/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/blogs/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <h1><%= @blog['title'] %></h1>
+6: 	<p>Decription:  <%=  @blog['description'] %></p>
+7: 	<p>Story:</p>
+8: 	<p><%= @blog['encoded'] %></p>
+
+    app/views/blogs/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:33:42) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4360ms (View: 138, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:33:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4531ms (View: 69, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BlogsController#show (for 127.0.0.1 at 2010-07-05 21:34:03) [GET]
+Rendering template within layouts/application
+Rendering blogs/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/blogs/show.html.erb:
+2: <p>Find me in app/views/blog/show.html.erb</p>
+3: <%= @source %>
+4: <p>===</p>
+5: <h1><%= @blog['title'] %></h1>
+6: 	<p>Decription:  <%=  @blog['description'] %></p>
+7: 	<p>Story:</p>
+8: 	<p><%= @blog['encoded'] %></p>
+
+    app/views/blogs/show.html.erb:5
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (119.5ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:36:38) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4373ms (View: 55, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing BlogsController#show (for 127.0.0.1 at 2010-07-05 21:36:46) [GET]
+  Parameters: {"source"=>"http%3A%2F%2Ffeedproxy.google.com%2F~r%2Fwait-till-i%2FgwZf%2F~3%2FBSsZMK_29EY%2F"}
+Rendering template within layouts/application
+Rendering blogs/show
+Completed in 654ms (View: 1, DB: 0) | 200 OK [http://localhost/blogs?source=http%253A%252F%252Ffeedproxy.google.com%252F%7Er%252Fwait-till-i%252FgwZf%252F%7E3%252FBSsZMK_29EY%252F]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:37:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5428ms (View: 58, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-05 21:38:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `photos_path' for #<ActionView::Base:0x231fd4c>) on line #33 of app/views/home/index.html.erb:
+30: 			<li>
+31: 				<%= link_to image_tag("http://farm#{photo['farm']}.static.flickr.com/#{photo['server']}/#{photo['id']}_#{photo['secret']}_s.jpg"), 
+32: 					photos_path(:service => "flickr", 
+33: 						:source => "http://www.flickr.com/photos/codepo8/" + URI.escape(photo['id'], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))) %>				
+34: 			</li>
+35: 		<%- end -%>
+36: 		</ul>    	
+
+    app/views/home/index.html.erb:33
+    app/views/home/index.html.erb:29:in `each'
+    app/views/home/index.html.erb:29
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)

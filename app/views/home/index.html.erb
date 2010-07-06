@@ -1,13 +1,14 @@
 <div class="yui-g">
   <div class="yui-u first">
-    <h2>My blog</h2>
-	<ul id="delicious" >
+    <h2>My Blog</h2>
+	
+	<ul id="blog" >
 	<%- @blog_articles.each do |article| -%>
 		<li>
 		             <!-- <a href="<%= article['link'] %>/">
 		             						<%= article['title'] %>
 		             					</a> -->
-					<%= link_to article['title'], root_path(:service => "blog", :url => URI.escape(article['link'])) %>
+					<%= link_to article['title'], blogs_path(:source => URI.escape(article['link'], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))) %>
 					
 		</li>
 	<%- end -%>
@@ -19,7 +20,7 @@
 	             <!-- <a href="<%= link['link'] %>/">
 					<%= link['title'] %>
 				</a> -->
-				<%= link_to link['title'], root_path(:service => "delicious", :url => URI.escape(link['link'])) %>				
+				<%= link_to link['title'], link['link'] %>				
 			</li>
 		<%- end -%>
 		</ul>    	
@@ -28,8 +29,8 @@
 		<%- @photos.each do |photo| -%>
 			<li>
 				<%= link_to image_tag("http://farm#{photo['farm']}.static.flickr.com/#{photo['server']}/#{photo['id']}_#{photo['secret']}_s.jpg"), 
-					root_path(:service => "flickr", 
-						:url => "http://www.flickr.com/photos/codepo8/" + URI.escape(photo['id'])) %>				
+					photos_path(:service => "flickr", 
+						:source => "http://www.flickr.com/photos/codepo8/" + URI.escape(photo['id'], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))) %>				
 			</li>
 		<%- end -%>
 		</ul>    	
@@ -50,7 +51,7 @@
 									<div style="border: 1px solid #999999; margin: 0px 10px 5px 0px;">
 										<%= link_to image_tag(video['group']['thumbnail'].first['url']), 
 											root_path(:service => "youtube", 
-												:url => URI.escape(video['group']['player']['url'])) %>				
+												:url => URI.escape(video['group']['player']['url'], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))) %>				
 										
 										<!-- <a href="<%= video['group']['player']['url'] %>">
 											<img alt="" src="<%= video['group']['thumbnail'].first['url']%>">
@@ -59,12 +60,12 @@
 								</td>
 								<td  valign="top">
 									<div style="font-size: 12px; font-weight: bold;">
-										<%= link_to video['title'], root_path(:service => "youtube", :url => URI.escape(video['group']['player']['url'])), :style => "font-size: 15px; font-weight: bold;font-decoration: none;" %>
+										<%= link_to video['title'], root_path(:service => "youtube", :url => URI.escape(video['group']['player']['url'], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))), :style => "font-size: 15px; font-weight: bold;font-decoration: none;" %>
 									</div>
 									<div style="font-size: 12px; margin: 3px 0px;"><span><%= video['group']['description']['content'] %></span></div></td>
 			<td style="font-size: 11px; line-height: 1.4em; padding-left: 20px;             padding-top: 1px;"  valign="top"><div><span style="color: #666666; font-size: 11px;">From:</span>
 				<%= link_to video['author']['name'], root_path(:service => "youtube", 
-					:url => URI.escape(video['author']['uri'])) %>
+					:url => URI.escape(video['author']['uri'], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))) %>
 			
 			</div>
 			<div><span style="color: #666666; font-size: 11px;">Views:</span>
