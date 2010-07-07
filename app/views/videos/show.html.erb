@@ -35,7 +35,9 @@
 	          updateytplayerInfo();
 	          ytplayer.addEventListener("onStateChange", "onytplayerStateChange");
 	          ytplayer.addEventListener("onError", "onPlayerError");
-	        }
+	          if (ytplayer) {
+				loadNewVideo(document.getElementById('loadvideoid').value, document.getElementById('startseconds').value)	          }
+	          }
 
 	        function onytplayerStateChange(newState) {
 	          setytplayerState(newState);
@@ -268,6 +270,5 @@
 	
 	    </div>
 </div>
-
   </body>
 </html>

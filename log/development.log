@@ -6783,3 +6783,124 @@ ActionView::TemplateError (undefined method `photos_path' for #<ActionView::Base
 Rendered rescues/_trace (43.1ms)
 Rendered rescues/_request_and_response (0.3ms)
 Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-06 20:32:26) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 2770ms (View: 76, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing VideosController#show (for 127.0.0.1 at 2010-07-06 20:32:53) [GET]
+  Parameters: {"videoid"=>"aQzUsxrm0eI"}
+Rendering template within layouts/application
+Rendering videos/show
+Completed in 980ms (View: 14, DB: 0) | 200 OK [http://localhost/videos?videoid=aQzUsxrm0eI]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-06 21:04:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 5069ms (View: 41, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing VideosController#show (for 127.0.0.1 at 2010-07-06 21:04:59) [GET]
+  Parameters: {"videoid"=>"-G5h6MKzyDw"}
+Rendering template within layouts/application
+Rendering videos/show
+Completed in 594ms (View: 2, DB: 0) | 200 OK [http://localhost/videos?videoid=-G5h6MKzyDw]
+
+
+Processing VideosController#show (for 127.0.0.1 at 2010-07-07 12:20:26) [GET]
+  Parameters: {"videoid"=>"-G5h6MKzyDw"}
+
+JSON::ParserError (705: unexpected token at '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<title>Policy Jump</title>
+	<meta http-equiv="Expires" content="0">
+</head>
+<BODY>This document has moved <A HREF="http://172.16.31.1/externalGuestRedirect.html?redirectPage=0">here</A></BODY>
+</html>
+
+'):
+  /opt/local/lib/ruby/gems/1.8/gems/json_pure-1.4.3/lib/json/common.rb:146:in `parse'
+  /opt/local/lib/ruby/gems/1.8/gems/json_pure-1.4.3/lib/json/common.rb:146:in `parse'
+  app/controllers/application_controller.rb:16:in `yql_search'
+  app/controllers/videos_controller.rb:12:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (39.6ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-07-07 13:33:58) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9097ms (View: 35, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing VideosController#show (for 127.0.0.1 at 2010-07-07 13:34:11) [GET]
+  Parameters: {"videoid"=>"-G5h6MKzyDw"}
+Rendering template within layouts/application
+Rendering videos/show
+Completed in 500ms (View: 2, DB: 0) | 200 OK [http://localhost/videos?videoid=-G5h6MKzyDw]
+
+
+Processing VideosController#show (for 127.0.0.1 at 2010-07-07 13:44:26) [GET]
+  Parameters: {"videoid"=>"-G5h6MKzyDw"}
+Rendering template within layouts/application
+Rendering videos/show
+Completed in 654ms (View: 2, DB: 0) | 200 OK [http://localhost/videos?videoid=-G5h6MKzyDw]
+
+
+Processing VideosController#show (for 127.0.0.1 at 2010-07-07 13:48:07) [GET]
+  Parameters: {"videoid"=>"-G5h6MKzyDw"}
+Rendering template within layouts/application
+Rendering videos/show
+Completed in 1645ms (View: 87, DB: 0) | 200 OK [http://localhost/videos?videoid=-G5h6MKzyDw]
+
+
+Processing VideosController#show (for 127.0.0.1 at 2010-07-07 13:48:32) [GET]
+  Parameters: {"videoid"=>"JnEepS4rsG8"}
+Rendering template within layouts/application
+Rendering videos/show
+Completed in 8131ms (View: 2, DB: 0) | 200 OK [http://localhost/videos?videoid=JnEepS4rsG8]
+
+
+Processing VideosController#show (for 127.0.0.1 at 2010-07-07 13:49:33) [GET]
+  Parameters: {"videoid"=>"dsHGzLDX7u8"}
+Rendering template within layouts/application
+Rendering videos/show
+Completed in 2037ms (View: 2, DB: 0) | 200 OK [http://localhost/videos?videoid=dsHGzLDX7u8]
+
+
+Processing VideosController#show (for 127.0.0.1 at 2010-07-07 13:50:34) [GET]
+  Parameters: {"videoid"=>"h-hEf0TlWEk"}
+Rendering template within layouts/application
+Rendering videos/show
+Completed in 5979ms (View: 2, DB: 0) | 200 OK [http://localhost/videos?videoid=h-hEf0TlWEk]
+
+
+Processing VideosController#show (for 127.0.0.1 at 2010-07-07 13:53:09) [GET]
+  Parameters: {"videoid"=>"h-hEf0TlWEk"}
+Rendering template within layouts/application
+Rendering videos/show
+Completed in 123ms (View: 11, DB: 0) | 200 OK [http://localhost/videos?videoid=h-hEf0TlWEk]
+
+
+Processing VideosController#show (for 127.0.0.1 at 2010-07-07 13:53:36) [GET]
+  Parameters: {"videoid"=>"aQzUsxrm0eI"}
+Rendering template within layouts/application
+Rendering videos/show
+Completed in 1284ms (View: 2, DB: 0) | 200 OK [http://localhost/videos?videoid=aQzUsxrm0eI]
