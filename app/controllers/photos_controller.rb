@@ -1,8 +1,10 @@
 class PhotosController < ApplicationController
   def index
+    response.headers['Cache-Control'] = 'public, max-age=300'
   end
 
   def show
+    response.headers['Cache-Control'] = 'public, max-age=300'
     if params[:photo_id]
       # params are given by the home index
       @photo_url = 'http://farm'+ params[:farm] + '.static.flickr.com/' + params[:server]         + '/'         + params[:photo_id]         + '_'         + params[:secret]         + '_z_d.jpg'

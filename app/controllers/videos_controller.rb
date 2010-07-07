@@ -1,9 +1,10 @@
 class VideosController < ApplicationController
   def index
-    
+    response.headers['Cache-Control'] = 'public, max-age=300'
   end
 
   def show
+    response.headers['Cache-Control'] = 'public, max-age=300'
     if params[:videoid]
       video_param = params[:videoid]
       @videoid = URI.unescape(video_param)

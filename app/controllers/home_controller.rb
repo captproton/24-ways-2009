@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
+    response.headers['Cache-Control'] = 'public, max-age=300'
     # YouTube RSS
     youtubeQuery = 'select * from feed(5) where url="http://gdata.youtube.com/feeds/api/users/chrisheilmann/uploads?v=2"'
     ##url="http://gdata.youtube.com/feeds/base/users/chrisheilmann/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile";'
