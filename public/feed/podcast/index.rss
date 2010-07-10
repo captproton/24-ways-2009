@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" 
+		xmlns:media="http://search.yahoo.com/mrss/"
+		xmlns:content="http://purl.org/rss/1.0/modules/content/"
+		xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+		xmlns:dc="http://purl.org/dc/elements/1.1/"
+		xmlns:atom="http://www.w3.org/2005/Atom"
+		xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+		xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+	
+  <channel>
+	<title>Sector Five Radio</title>
+	<atom:link href="http://betamouse.net/feed/podcast/" rel="self" type="application/rss+xml" />
+	<link>http://betamouse.net</link>
+	<description>Big Foot, Aliens, Sci-Fi Tech, &#38; Gadgets, a weekly radio show and podcast from a crack team of geeks.</description>
+
+	<lastBuildDate>Thu, 08 Jul 2010 01:31:40 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>daily</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<itunes:summary>Sector Five explores supernatural activity anywhere in the world , interviews leading scientists, tells of fantastic enconters, and reviews the latest high-tech gear.</itunes:summary>
+
+	<itunes:subtitle>Positive paranormal radio that entertains.</itunes:subtitle>
+	<itunes:author>Dice Media Group</itunes:author>
+	<itunes:image href="http://betamouse.net/wp-content/uploads/2010/03/BetaMouse_logo_300x300_white.png" />
+	<image><url>http://betamouse.net/wp-content/uploads/2010/03/BetaMouse_logo_300x300_white.png</url><title>Sector Five Radio</title><link>http://sectorfiveradio.com</link></image>
+	<itunes:category text="Entertainment" />
+
+	<itunes:keywords>radio, show, paranormal, supernatural, science, fiction</itunes:keywords>
+	<itunes:explicit>clean</itunes:explicit>
+	<itunes:owner>
+		<itunes:name>Dice Media Group</itunes:name>
+
+		<itunes:email>carl@captproton.com</itunes:email>
+	</itunes:owner>
+	<!--  -->
+    <item>
+      <title>Sector 5 Radio.07.03.2010.hour.1.part.3</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.07.03.2010.hour.1.part.3&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews Kung Fu Master Adam Woolsey. Due to technical problems, there are 3 separate pieces of recordings from this interview during the first hour. This is PART 3. ATTENTION: There is a 12 second delay before audio starts..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.07.03.2010.hour.1.part.3</link>
+      <guid>http://www.archive.org/details/Sector5Radio.07.03.2010.hour.1.part.3</guid>
+      <pubDate>Tue, 06 Jul 2010 22:17:39 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.07.03.2010.hour.1.part.3/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.07.03.2010.hour.1.part.3/ffgt.mp3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Dickie Shannon, Sector Five Radio, Sector 5, Adam Woolsey, Kung Fu</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.07.03.2010.hour.1.Part.2</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.07.03.2010.hour.1.part.2&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews Kung Fu Master Adam Woolsey. Due to technical problems, there are 3 separate pieces of recordings from this interview during the first hour. This is PART 2..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.07.03.2010.hour.1.part.2</link>
+      <guid>http://www.archive.org/details/Sector5Radio.07.03.2010.hour.1.part.2</guid>
+      <pubDate>Tue, 06 Jul 2010 22:08:01 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.07.03.2010.hour.1.part.2/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.07.03.2010.hour.1.part.2/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Sector Five Radio, Sector 5, Dickie Shannon, Adam Woolsey, Kung Fu</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.07.03.2010.Hour.1.PART.1</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.07.03.2010.hour.1.part.1&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews Kung Fu Master Adam Woolsey. Due to technical problems, there are 3 separate pieces of recordings from this interview during the first hour. This is Part 1..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.07.03.2010.hour.1.part.1</link>
+      <guid>http://www.archive.org/details/Sector5Radio.07.03.2010.hour.1.part.1</guid>
+      <pubDate>Tue, 06 Jul 2010 21:59:30 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.07.03.2010.hour.1.part.1/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.07.03.2010.hour.1.part.1/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Sector Five Radio, Sector 5, Dickie Shannon, Adam Woolsey, Kung Fu</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.07.03.2010.hour.3</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.07.03.2010.hour.3&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon and the Sector Five Team go full throttle into the Geek-Fest Hour! John the Comic Book Guy gives his complete report; Michelle the Ghost Girl shares about her upcoming ghost hunting trip, and reports all the latest Weird Science; Spacey Dave gives his satirical space news report; Capt....&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.07.03.2010.hour.3</link>
+      <guid>http://www.archive.org/details/Sector5Radio.07.03.2010.hour.3</guid>
+      <pubDate>Tue, 06 Jul 2010 21:37:19 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.07.03.2010.hour.3/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.07.03.2010.hour.3/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Dickie Shannon, Sector Five, Comic Book John, Ghost Girl Michelle, Captain Proton, Spacey Dave, movies, science, space, news</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.June.26.2010.Hour.3</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.june.26.2010.hour.3&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon and the Sector Five Team go full throttle into the Geek-Fest Hour! John the Comic Book Guy gives his complete report; Michelle the Ghost Girl shares about her upcoming ghost hunting trip, and reports all the latest Weird Science; Spacey Dave gives his satirical space news report; Capt....&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.june.26.2010.hour.3</link>
+      <guid>http://www.archive.org/details/Sector5Radio.june.26.2010.hour.3</guid>
+      <pubDate>Sun, 27 Jun 2010 15:42:41 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.june.26.2010.hour.3/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.june.26.2010.hour.3/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Sector Five Radio, Sector 5, Dickie Shannon, John the Comic Book Guy, Michelle, Ghost Girl, Weird Science, Spacey Dave, satirical, space news, science, technology, comics, ghosts, Utah, Cassini, Iron Maiden, NASA, Little Ice Age, Republicans, Liberals, Arizona, Jan Brewer, Glen Beck</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.June.26.2010.Hour.2</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.june.26.2010.hour.2&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews superstar author Larry Correia about his new book: Monster Hunter International. They also discuss Larry's many hobbies which include guns and blowing things up in the middle of the Utah desert! Hour 2 of 2..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.june.26.2010.hour.2</link>
+      <guid>http://www.archive.org/details/Sector5Radio.june.26.2010.hour.2</guid>
+      <pubDate>Sun, 27 Jun 2010 15:24:00 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.june.26.2010.hour.2/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.june.26.2010.hour.2/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Larry Correia, Dickie Shannon, Sector Five Radio, Sector 5, Monster Hunter International, book, writing, guns, explosions, Utah, Mormon</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.June.26.2010.Hour.1</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.june.26.2010.hour.1&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews superstar author Larry Correia about his new book: Monster Hunter International. They also discuss Larry's many hobbies which include guns and blowing things up in the middle of the Utah desert! Hour 1 of 2..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.june.26.2010.hour.1</link>
+      <guid>http://www.archive.org/details/Sector5Radio.june.26.2010.hour.1</guid>
+      <pubDate>Sun, 27 Jun 2010 15:05:35 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.june.26.2010.hour.1/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.june.26.2010.hour.1/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Larry Correia, Dickie Shannon, Sector Five Radio, Sector 5, Monster Hunter International, book, writing, guns, explosions, Utah, Mormon</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.June.19.2010.hour.3</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.june.19.2010.hour.3&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon completes his interviews Michael Lynch PhD parapsychologist and occult specialist during the first 30 minutes; final topics covered include: ghosts, orbs, angels, and the exorcist. Afterwards, the third hour Geekfest goes into high gear with Captain Proton, John the Comic Book Guy, an....&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.june.19.2010.hour.3</link>
+      <guid>http://www.archive.org/details/Sector5Radio.june.19.2010.hour.3</guid>
+      <pubDate>Sun, 20 Jun 2010 17:27:32 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.june.19.2010.hour.3/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.june.19.2010.hour.3/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Sector Five Radio, Sector 5, Dickie Shannon, Michael Lynch, parapsychology, occult, ghosts, orbs, exorcist, angels, fairies, NASA, International Space Station, D.C. comics, Amelia Earhart, Sarah Palin, robots, movies, TV, science fiction, fantasy, Frodo, Lord of the Rings</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.June.19.2010.hour.2</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.june.19.2010.hour.2&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews Michael Lynch PhD Parapsychologist and occult specialist. They discuss ghosts, orbs, haunted houses, aliens, psychic abilities, the afterlife, energy, souls, orbs, angels, and the exorcist..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.june.19.2010.hour.2</link>
+      <guid>http://www.archive.org/details/Sector5Radio.june.19.2010.hour.2</guid>
+      <pubDate>Sun, 20 Jun 2010 17:09:08 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.june.19.2010.hour.2/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.june.19.2010.hour.2/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Sector Five Radio, Sector 5, Dickie Shannon, Michael Lynch, parapsychology, occult, ghosts, orbs, haunted, aliens, psychic abilities, afterlife, soul, energy, orbs, exorcist, angels, and fairies</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.June.19.2010.hour.1</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.june.19.2010.hour.1&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews Carrie Shubert renowned clairvoyant/psychic consultant, lecturer, teacher, author, medium, and certified hypnotherapist..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.june.19.2010.hour.1</link>
+      <guid>http://www.archive.org/details/Sector5Radio.june.19.2010.hour.1</guid>
+      <pubDate>Sun, 20 Jun 2010 16:53:46 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.june.19.2010.hour.1/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.june.19.2010.hour.1/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Sector Five Radio, Sector 5, Dickie Shannon, Carrie Shubert, psychic, medium, hypnotherapist, clairvoyant, destiny, third dimension</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio..June.12.2010..Hour.3</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio..june.12.2010..hour.3&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon and the Sector Five Team commence with a full hour of Geeky-ness! John the comic book guy gives his full report on Batmanâs 700th comic book anniversary, Wonder Woman, A-Team, Anthony Hopkins, Storm the Movie, 3-D TVâs, Nintendo DS, Inception the movie, Christopher Nolan, etc....&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio..june.12.2010..hour.3</link>
+      <guid>http://www.archive.org/details/Sector5Radio..june.12.2010..hour.3</guid>
+      <pubDate>Sun, 13 Jun 2010 19:06:14 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio..june.12.2010..hour.3/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio..june.12.2010..hour.3/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Dickie Shannon, John the Comic Book Guy, Michelle the Ghost Girl, Spacey Dave, Captain Proton, Batman, A-Team, Storm, Inception, Anthony Hopkins, Christopher Nolan, Nintendo DS, 3-D TV, Calvin Klein, cheetahs, spiders, Russia, space, Hayabusa, Japanese, South Korea, rocket, asteroid, technology, science</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio..June.12.2010..hour.2</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio..june.12.2010..hour.2&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews Alex Hearn, Director of the Arizona Cryptozoological Research Organization. AZCRO associate Mitch Wade joins Alex Hearn in the discussion about the research, exploration and encounters they and their team has had with ghosts and various creatures such as the Mogollon Monste....&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio..june.12.2010..hour.2</link>
+      <guid>http://www.archive.org/details/Sector5Radio..june.12.2010..hour.2</guid>
+      <pubDate>Sun, 13 Jun 2010 18:23:34 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio..june.12.2010..hour.2/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio..june.12.2010..hour.2/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>AZCRO, Dickie, Shannon, Alex, Hearn, encounters, ghosts, Mogollan Monster, giant, birds, cats, witch, Laurie, Cabot, Salem, Massachusetts</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.06.05.2010.Hour.3</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.06.05.2010.hour.3&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon and the Sector 5 crew celebrate Geekfest! Yes, one full hour dedicated to comics, movies, TV, ghosts, space, science, monsters, and more! Comic Book John gives an update on comics, movies, and games....&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.06.05.2010.hour.3</link>
+      <guid>http://www.archive.org/details/Sector5Radio.06.05.2010.hour.3</guid>
+      <pubDate>Sun, 06 Jun 2010 22:02:06 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.06.05.2010.hour.3/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.06.05.2010.hour.3/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>D.C. Comics, Iron Man, Robin, science, space, Falcon 9, NASA, ghosts, games, Farmville, Geekfest</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.06.05.2010.hour.2</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.06.05.2010.hour.2&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon intervies Mark Cazassa famous crystal and rock healing specialist, and in the second half, Mr. Dickie interviews internationally known astrologer Teri VanPatten..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.06.05.2010.hour.2</link>
+      <guid>http://www.archive.org/details/Sector5Radio.06.05.2010.hour.2</guid>
+      <pubDate>Sun, 06 Jun 2010 21:42:00 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.06.05.2010.hour.2/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.06.05.2010.hour.2/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>crystals, Reiki, energy, chakras, healing rocks, charts, stars, planets, astrology, Teri VanPatten, Mark Cazassa</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.06.05.2010.hour.1</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.06.05.2010.hour.1&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews Angel Shannon lifecoach and spiritual guru. In the second half, Mr. Dickie interviews David Ball famous tarot card reader and tarot authority..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.06.05.2010.hour.1</link>
+      <guid>http://www.archive.org/details/Sector5Radio.06.05.2010.hour.1</guid>
+      <pubDate>Sun, 06 Jun 2010 21:28:00 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.06.05.2010.hour.1/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.06.05.2010.hour.1/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>David Ball, tarot, divination, time, fate, destiny, meditation, manifestation, visualization, higher self, Reiki</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.05.29.2010.hour.3</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.05.29.2010.hour.3&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon broadcasts live from CONduit the largest science fiction and fantasy convention in the Intermountain West. Mr. Dickie listens to Filk performed live by Julia West and other professional Filkers, speaks with a Salt Lake City ghost hunting organization, and speaks with more writers and ....&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.05.29.2010.hour.3</link>
+      <guid>http://www.archive.org/details/Sector5Radio.05.29.2010.hour.3</guid>
+      <pubDate>Thu, 03 Jun 2010 02:55:17 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.05.29.2010.hour.3/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.05.29.2010.hour.3/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Filk, CONduit, Julia West, science fiction, fantasy, ghost, Salt Lake City</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.05.29.2010.hour.2</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.05.29.2010.hour.2&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon broadcasts live from CONduit â the largest science fiction and fantasy convention in the Intermountain West. Mr. Dickie interviews a plethora of SF/Fantasy writers, vendors, and convention goers....&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.05.29.2010.hour.2</link>
+      <guid>http://www.archive.org/details/Sector5Radio.05.29.2010.hour.2</guid>
+      <pubDate>Thu, 03 Jun 2010 02:39:58 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.05.29.2010.hour.2/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.05.29.2010.hour.2/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>CONduit, convention, science fiction, fantasy, authors, utah</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.05.29.2010.Hour.1</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.05.29.2010.hour.1&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon broadcasts live from CONduit â the largest science fiction and fantasy convention in the Intermountain West. Mr. Dickie interviews a plethora of SF/Fantasy writers, vendors, and convention goers....&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.05.29.2010.hour.1</link>
+      <guid>http://www.archive.org/details/Sector5Radio.05.29.2010.hour.1</guid>
+      <pubDate>Thu, 03 Jun 2010 02:23:41 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.05.29.2010.hour.1/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.05.29.2010.hour.1/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>CONduit, science fiction, fantasy, Utah</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.05.22.2010.hour.3</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.05.22.2010.hour.3&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon and the Sector 5 team cover subjects that include: Comic John's comic report, the upcoming CONduit convention, movies, TV, science fiction, fantasy, gaming, ghosts and paranormal activity, Michelle's Weird Science, and Spacey Dave's satirical space news report..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.05.22.2010.hour.3</link>
+      <guid>http://www.archive.org/details/Sector5Radio.05.22.2010.hour.3</guid>
+      <pubDate>Thu, 03 Jun 2010 02:00:16 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.05.22.2010.hour.3/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.05.22.2010.hour.3/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>space, comics, movies, science, fantasy, science fiction, ghost hunters, weird science</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.05.22.2010.hour.2</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.05.22.2010.hour.2&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews publisher of UFO Magazine: Bill Birnes. Mr. Birnes is seen on UFO Hunters TV show, and has produced several other shows including Lost UFO Files and Giant UFOâs. They discuss the shows, the magazine, Roswell, and UFO sightings and encounters! Bill Birnes is the internation....&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.05.22.2010.hour.2</link>
+      <guid>http://www.archive.org/details/Sector5Radio.05.22.2010.hour.2</guid>
+      <pubDate>Thu, 03 Jun 2010 01:45:25 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.05.22.2010.hour.2/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.05.22.2010.hour.2/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Bill Birnes, UFO Hunters, UFO Magazine, UFO's, encounters, Roswell</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.05.22.2010.hour.1</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.05.22.2010.hour.1&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews publisher of UFO Magazine: Bill Birnes. Mr. Birnes is seen on UFO Hunters TV show, and has produced several other shows including Lost UFO Files and Giant UFOâs. They discuss the shows, the magazine, Roswell, and UFO sightings and encounters! Bill Birnes is the internation....&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.05.22.2010.hour.1</link>
+      <guid>http://www.archive.org/details/Sector5Radio.05.22.2010.hour.1</guid>
+      <pubDate>Thu, 03 Jun 2010 01:25:22 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.05.22.2010.hour.1/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.05.22.2010.hour.1/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>UFO Hunters, Bill Birnes, UFO's, UFO Magazine, encounters</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.05.15.2010.Hour.3</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.05.15.2010.hour.3&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews international Bigfoot Authority: Tom Biscardi. Many of the Searching For Bigfoot Inc. team members call in and give detailed experiences and encounters..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.05.15.2010.hour.3</link>
+      <guid>http://www.archive.org/details/Sector5Radio.05.15.2010.hour.3</guid>
+      <pubDate>Thu, 03 Jun 2010 01:04:31 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.05.15.2010.hour.3/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.05.15.2010.hour.3/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Tom Biscardi, bigfoot, searching, team, encounters, stories</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.05.15.2010.Hour.2</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.05.15.2010.hour.2&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews international Bigfoot Authority: Tom Biscardi. Many of the Searching For Bigfoot Inc. team members call in and give detailed experiences and encounters..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.05.15.2010.hour.2</link>
+      <guid>http://www.archive.org/details/Sector5Radio.05.15.2010.hour.2</guid>
+      <pubDate>Thu, 03 Jun 2010 00:45:35 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.05.15.2010.hour.2/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.05.15.2010.hour.2/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Tom Biscardi, bigfoot, searching, team</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.May.15.2010.hour.1</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.05.15.2010.hour.1&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews international Bigfoot Authority: Tom Biscardi. Many of the Searching For Bigfoot Inc. team members call in and give detailed experiences and encounters..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.05.15.2010.hour.1</link>
+      <guid>http://www.archive.org/details/Sector5Radio.05.15.2010.hour.1</guid>
+      <pubDate>Thu, 03 Jun 2010 00:27:04 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.05.15.2010.hour.1/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.05.15.2010.hour.1/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Tom Biscardi, Bigfoot, expedition, sightings, team</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.May.08.2010.Hour 3</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.may.08.2010.hour3&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon and the Sector Five crew discuss comics, movies, TV, weired science and twisted space news. Topics discussed: x-men, astroids, Iron Man 2, beta testers.&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.may.08.2010.hour3</link>
+      <guid>http://www.archive.org/details/Sector5Radio.may.08.2010.hour3</guid>
+      <pubDate>Fri, 28 May 2010 17:21:32 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.may.08.2010.hour3/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.may.08.2010.hour3/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>x-men, astroids, Iron Man 2, beta testers, comics, movies, TV, weired science and twisted space news</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio.May.08.2010.Hour 2</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5Radio.may.08.2010.hour2&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews Hanswille Gerhart translator and Authority on the works of Franz Bardon. Topics discussed: body, soul and spirit, metaphysics, hermetics, works by Franz Bardon..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5Radio.may.08.2010.hour2</link>
+      <guid>http://www.archive.org/details/Sector5Radio.may.08.2010.hour2</guid>
+      <pubDate>Fri, 28 May 2010 17:01:24 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5Radio.may.08.2010.hour2/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5Radio.may.08.2010.hour2/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>body, soul, spirit, metaphysics, hermetics, Franz Bardon, Hanswille Gerhart</media:keywords>
+    </item>
+    <item>
+      <title>Sector 5 Radio, May.08.2010, Hour 1</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=Sector5RadioMay.08.2010Hour1&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon interviews Dr. John Armstrong, Assistant Professor of Physics at Weber State University. Topics discussed: space travel, moon, mars, aliens, exoplanets.&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/Sector5RadioMay.08.2010Hour1</link>
+      <guid>http://www.archive.org/details/Sector5RadioMay.08.2010Hour1</guid>
+      <pubDate>Wed, 26 May 2010 01:54:51 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/Sector5RadioMay.08.2010Hour1/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/Sector5RadioMay.08.2010Hour1/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>space travel, moon, mars, aliens, exoplanets, Dr. John Armstrong</media:keywords>
+    </item>
+    <item>
+      <title>Sector Five Radio Premier Show Hour 1</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=SectorFiveRadioPremierShowHour1&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon chats with NASA Solar System Ambassador, Patrick Wiggins about everything up above, from space travel to star parties..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/SectorFiveRadioPremierShowHour1</link>
+      <guid>http://www.archive.org/details/SectorFiveRadioPremierShowHour1</guid>
+      <pubDate>Wed, 05 May 2010 23:06:22 GMT</pubDate>
+      <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/3.0/us/</creativeCommons:license>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/SectorFiveRadioPremierShowHour1/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/SectorFiveRadioPremierShowHour1/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>Space, NASA, Patrick Wiggins, space travel</media:keywords>
+    </item>
+    <item>
+      <title>Sector Five Radio Show 1 Hour 1</title>
+      <description>&lt;img width="160" style="padding-right:3px;float:left;" src="http://www.archive.org/services/get-item-image.php?identifier=SectorFiveRadioShow1Hour1&amp;mediatype=audio&amp;collection=opensource_audio"/&gt;&lt;p&gt;Dickie Shannon chats with NASA Solar System Ambassador, Patrick Wiggins about everything up above, from space travel to star parties..&lt;/p&gt;&lt;p&gt;This item has files of the following types: Metadata, Ogg Vorbis, VBR MP3&lt;/p&gt;</description>
+      <link>http://www.archive.org/details/SectorFiveRadioShow1Hour1</link>
+      <guid>http://www.archive.org/details/SectorFiveRadioShow1Hour1</guid>
+      <pubDate>Wed, 05 May 2010 20:35:02 GMT</pubDate>
+      <category>audio/opensource_audio</category>
+      <media:content url="http://www.archive.org/download/SectorFiveRadioShow1Hour1/format=VBR+MP3" type="audio/mpeg" medium="audio" expression="full" isDefault="true" bitrate="128"/>
+      <enclosure url="http://www.archive.org/download/SectorFiveRadioShow1Hour1/format=VBR+MP3" type="audio/mpeg" length="111111"/>
+      <media:keywords>NASA, Space, Patrick Wiggins, Stars</media:keywords>
+    </item>
+  </channel>
+</rss>
