@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table xmlns="http://query.yahooapis.com/v1/schema/table.xsd">
+  <meta>
+    <author>Capt. Proton</author>
+    <documentationURL>http://www.archive.org/advancedsearch.php</documentationURL>
+    <description>Searches archive.org for audio by dice media to generate iTunes podcast.</description>
+    <sampleQuery>SELECT * FROM {table} WHERE creator="dice media"</sampleQuery>
+  </meta>
+
+  <bindings>
+    <select itemPath="rss.channel.item" produces="XML">
+      <urls>
+        <url>http://www.archive.org/advancedsearch.php?q=creator%3A%28dice+media+group%29&sort[]=&sort[]=&sort[]=&rows=11&page=1&callback=callback&output=rss</url>
+      </urls>
+    </select>
+  </bindings>
+</table>
