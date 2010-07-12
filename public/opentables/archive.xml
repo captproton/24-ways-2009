@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <table xmlns="http://query.yahooapis.com/v1/schema/table.xsd">
   <meta>
-    <author>Capt. Proton</author>
-    <documentationURL>http://www.archive.org/advancedsearch.php</documentationURL>
-    <description>Searches archive.org for audio by dice media to generate iTunes podcast.</description>
-    <sampleQuery>SELECT * FROM {table} WHERE archivequery="dice"</sampleQuery>
-  </meta>
+        <description>Collects the yahoo pipe for Sector Five Radio as an rss and adds the link mp3 of the show so that it can be listed in itunes.</description>
+	    <sampleQuery>SELECT * FROM {table} WHERE description like "%Dickie Shannon%"</sampleQuery>
+	    <sampleQuery>SELECT * FROM {table} WHERE title="Sector 5 Radio..07.10.2010.hour.3"</sampleQuery>
 
+  </meta>
   <bindings>
     <select itemPath="" produces="XML">
-      <urls>
-		<url>http://www.archive.org/advancedsearch.php?q={archivequery}</url>
-      </urls>
-      <inputs>
-        <key id="archivequery" type="xs:string" paramType="path" required="true" />
-      </inputs>
+		<urls>
+
+			<url>http://pipes.yahoo.com/pipes/pipe.run?_id=996b8c7f5c4268e6ea773aed7b2a98b6&_render=rss</url>
+		</urls>
+		<execute><![CDATA[
+
+			default xml namespace = "http://purl.org/rss/1.0/modules/content/";
+			var feed = request.get().response,//call the url defined above
+
+			 	channel = <channel></channel>,//prep the output object
+				item = null,//individual entry in xml obj. used in loop below.
+				enclosuretwo = null;//link to mp3.  used in loop below
+
+			for each(item in feed.item){
+				enclosuretwo =
+					item.pubDate//eg M 3.0, Puerto Rico region
+
+					.split(' ')[1]//eg --> 3.0,
+					.replace(',', '');//eg --> 3.0
+
+				entry.appendChild( <enclosuretwo>{enclosuretwo}</enclosuretwo> );
+				entries.appendChild(item);
+
+			}
+			response.object = channel;
+		]]></execute>
+
     </select>
   </bindings>
 </table>
