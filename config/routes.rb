@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :feeds
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   map.resource  :blogs,       :controller => 'blogs', :only => [:index, :show] 

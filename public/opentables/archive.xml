@@ -4,14 +4,17 @@
     <author>Capt. Proton</author>
     <documentationURL>http://www.archive.org/advancedsearch.php</documentationURL>
     <description>Searches archive.org for audio by dice media to generate iTunes podcast.</description>
-    <sampleQuery>SELECT * FROM {table} WHERE creator="dice media"</sampleQuery>
+    <sampleQuery>SELECT * FROM {table} WHERE archivequery="dice"</sampleQuery>
   </meta>
 
   <bindings>
-    <select itemPath="rss.channel.item" produces="XML">
+    <select itemPath="" produces="XML">
       <urls>
-        <url>http://www.archive.org/advancedsearch.php?q=creator%3A%28dice+media+group%29&sort[]=&sort[]=&sort[]=&rows=11&page=1&callback=callback&output=rss</url>
+		<url>http://www.archive.org/advancedsearch.php?q={archivequery}</url>
       </urls>
+      <inputs>
+        <key id="archivequery" type="xs:string" paramType="path" required="true" />
+      </inputs>
     </select>
   </bindings>
 </table>
