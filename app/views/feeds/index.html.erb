@@ -1,0 +1,26 @@
+<% title "Feeds" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Yql Query</th>
+    <th>Atom Link Href</th>
+    <th>Link</th>
+    <th>Description</th>
+
+  </tr>
+  <% for feed in @feeds %>
+    <tr>
+      <td><%=h feed.name %></td>
+      <td><%=h feed.yql_query %></td>
+      <td><%=h feed.atom_link_href %></td>
+      <td><%=h feed.link %></td>
+      <td><%=h feed.description %></td>
+      <td><%= link_to "Show", feed %></td>
+      <td><%= link_to "Edit", edit_feed_path(feed) %></td>
+      <td><%= link_to "Destroy", feed, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Feed", new_feed_path %></p>

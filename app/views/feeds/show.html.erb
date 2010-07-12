@@ -1,0 +1,88 @@
+<% title "Feed" %>
+
+<p>
+  <strong>Name:</strong>
+  <%=h @feed.name %>
+</p>
+<p>
+  <strong>Yql Query:</strong>
+  <%=h @feed.yql_query %>
+</p>
+<p>
+  <strong>Atom Link Href:</strong>
+  <%=h @feed.atom_link_href %>
+</p>
+<p>
+  <strong>Link:</strong>
+  <%=h @feed.link %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%=h @feed.description %>
+</p>
+<p>
+  <strong>Language:</strong>
+  <%=h @feed.language %>
+</p>
+<p>
+  <strong>Lastbuilddate:</strong>
+  <%=h @feed.lastBuildDate %>
+</p>
+<p>
+  <strong>Sy Updateperiod:</strong>
+  <%=h @feed.sy_updatePeriod %>
+</p>
+<p>
+  <strong>Sy Updatefrequency:</strong>
+  <%=h @feed.sy_updateFrequency %>
+</p>
+<p>
+  <strong>Itunes Summary:</strong>
+  <%=h @feed.itunes_summary %>
+</p>
+<p>
+  <strong>Itunes Subtitle:</strong>
+  <%=h @feed.itunes_subtitle %>
+</p>
+<p>
+  <strong>Itunes Author:</strong>
+  <%=h @feed.itunes_author %>
+</p>
+<p>
+  <strong>Itunes Image Href:</strong>
+  <%=h @feed.itunes_image_href %>
+</p>
+<p>
+  <strong>Image Url:</strong>
+  <%=h @feed.image_url %>
+</p>
+<p>
+  <strong>Image Link:</strong>
+  <%=h @feed.image_link %>
+</p>
+<p>
+  <strong>Itunes Category:</strong>
+  <%=h @feed.itunes_category %>
+</p>
+<p>
+  <strong>Itunes Keywords:</strong>
+  <%=h @feed.itunes_keywords %>
+</p>
+<p>
+  <strong>Itunes Explicit:</strong>
+  <%=h @feed.itunes_explicit %>
+</p>
+<p>
+  <strong>Itunes Owner Name:</strong>
+  <%=h @feed.itunes_owner_name %>
+</p>
+<p>
+  <strong>Itunes Owner Email:</strong>
+  <%=h @feed.itunes_owner_email %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_feed_path(@feed) %> |
+  <%= link_to "Destroy", @feed, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", feeds_path %>
+</p>

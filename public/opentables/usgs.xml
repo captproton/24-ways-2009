@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table xmlns="http://query.yahooapis.com/v1/schema/table.xsd">
+  <meta>
+        <description>Extracts magnitude from item title in atom feed and adds it as an element to the item.  We can then filter by magnitude using yql's built-in operators</description>
+	<sampleQuery>select entry from usgs.earthquakes</sampleQuery>
+	<sampleQuery>select entry from usgs.earthquakes where entry.magnitude >= 6.0</sampleQuery>
+
+  </meta>
+  <bindings>
+    <select itemPath="" produces="XML">
+		<urls>
+
+			<url>http://earthquake.usgs.gov/eqcenter/catalogs/7day-M2.5.xml?11d</url>
+		</urls>
+		<execute><![CDATA[
+
+			default xml namespace = "http://www.w3.org/2005/Atom";
+			var xml = request.get().response,//call the url defined above
+
+			 	entries = <entries></entries>,//prep the output object
+				entry = null,//individual entry in xml obj. used in loop below.
+				magnitude = null;//magnitude of quake.  used in loop below
+
+			for each(entry in xml.entry){
+				magnitude =
+					entry.title//eg M 3.0, Puerto Rico region
+
+					.split(' ')[1]//eg --> 3.0,
+					.replace(',', '');//eg --> 3.0
+
+				entry.appendChild( <magnitude>{magnitude}</magnitude> );
+				entries.appendChild(entry);
+
+			}
+			response.object = entries;
+		]]></execute>
+
+    </select>
+  </bindings>
+</table>

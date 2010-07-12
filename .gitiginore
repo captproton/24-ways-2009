@@ -1,0 +1,12 @@
+public/system/*
+log/*.log
+tmp/**/*
+.DS_Store
+doc/api
+doc/app
+config/database.yml
+public/images/system/*
+nbproject
+index/**/*
+db/*.sqlite3
+*.tmproj

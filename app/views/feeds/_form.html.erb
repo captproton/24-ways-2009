@@ -1,0 +1,84 @@
+<% form_for @feed do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :yql_query %><br />
+    <%= f.text_area :yql_query %>
+  </p>
+  <p>
+    <%= f.label :atom_link_href %><br />
+    <%= f.text_field :atom_link_href %>
+  </p>
+  <p>
+    <%= f.label :link %><br />
+    <%= f.text_field :link %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </p>
+  <p>
+    <%= f.label :language %><br />
+    <%= f.text_field :language %>
+  </p>
+  <p>
+    <%= f.label :lastBuildDate %><br />
+    <%= f.date_select :lastBuildDate %>
+  </p>
+  <p>
+    <%= f.label :sy_updatePeriod %><br />
+    <%= f.text_field :sy_updatePeriod %>
+  </p>
+  <p>
+    <%= f.label :sy_updateFrequency %><br />
+    <%= f.text_field :sy_updateFrequency %>
+  </p>
+  <p>
+    <%= f.label :itunes_summary %><br />
+    <%= f.text_area :itunes_summary %>
+  </p>
+  <p>
+    <%= f.label :itunes_subtitle %><br />
+    <%= f.text_field :itunes_subtitle %>
+  </p>
+  <p>
+    <%= f.label :itunes_author %><br />
+    <%= f.text_field :itunes_author %>
+  </p>
+  <p>
+    <%= f.label :itunes_image_href %><br />
+    <%= f.text_area :itunes_image_href %>
+  </p>
+  <p>
+    <%= f.label :image_url %><br />
+    <%= f.text_area :image_url %>
+  </p>
+  <p>
+    <%= f.label :image_link %><br />
+    <%= f.text_area :image_link %>
+  </p>
+  <p>
+    <%= f.label :itunes_category %><br />
+    <%= f.text_field :itunes_category %>
+  </p>
+  <p>
+    <%= f.label :itunes_keywords %><br />
+    <%= f.text_field :itunes_keywords %>
+  </p>
+  <p>
+    <%= f.label :itunes_explicit %><br />
+    <%= f.text_field :itunes_explicit %>
+  </p>
+  <p>
+    <%= f.label :itunes_owner_name %><br />
+    <%= f.text_field :itunes_owner_name %>
+  </p>
+  <p>
+    <%= f.label :itunes_owner_email %><br />
+    <%= f.text_field :itunes_owner_email %>
+  </p>
+  <p><%= f.submit "Submit" %></p>
+<% end %>
