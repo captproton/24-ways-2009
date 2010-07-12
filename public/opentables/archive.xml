@@ -12,28 +12,6 @@
 
 			<url>http://pipes.yahoo.com/pipes/pipe.run?_id=996b8c7f5c4268e6ea773aed7b2a98b6&_render=rss</url>
 		</urls>
-		<execute><![CDATA[
-
-			default xml namespace = "http://purl.org/rss/1.0/modules/content/";
-			var feed = request.get().response,//call the url defined above
-
-			 	channel = <channel></channel>,//prep the output object
-				item = null,//individual entry in xml obj. used in loop below.
-				enclosuretwo = null;//link to mp3.  used in loop below
-
-			for each(item in feed.item){
-				enclosuretwo =
-					item.pubDate//eg M 3.0, Puerto Rico region
-
-					.split(' ')[1]//eg --> 3.0,
-					.replace(',', '');//eg --> 3.0
-
-				entry.appendChild( <enclosuretwo>{enclosuretwo}</enclosuretwo> );
-				entries.appendChild(item);
-
-			}
-			response.object = channel;
-		]]></execute>
 
     </select>
   </bindings>
