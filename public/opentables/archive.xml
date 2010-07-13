@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <table xmlns="http://query.yahooapis.com/v1/schema/table.xsd" https="false">
-	<meta>
-		<author>%YOUR-NAME% (TableSaw)</author>
-		<description>let\'s tweet</description>
-		<documentationURL>none</documentationURL>
-		<sampleQuery>select * from {table} where q='title:(sector) AND creator:(dice media group)' and output='rss';</sampleQuery>
-	</meta>
-	<bindings>
-		<select itemPath="" produces="XML">
-			<urls>
-				<url>http://www.archive.org/advancedsearch.php</url>
-			</urls>
-			<inputs>
-				<key id="q" type="xs:string" paramType="query"/>
-				<key id="output" type="xs:string" paramType="query"/>
-			</inputs>
-		</select>
-	</bindings>
+<meta>
+    <author>%YOUR-NAME% (TableSaw)</author>
+    <description>let\'s tweet</description>
+    <documentationURL>none</documentationURL>
+    <sampleQuery>select * from {table} where q='title:(sector) AND creator:(dice media group)' and output='rss';</sampleQuery>
+</meta>
+<bindings>
+    <select itemPath="" produces="XML">
+        <urls>
+            <url>http://www.archive.org/advancedsearch.php</url>
+        </urls>
+        <inputs>
+            <key id="q" type="xs:string" paramType="query"/>
+            <key id="output" type="xs:string" paramType="query"/>
+        </inputs>
+    </select>
+</bindings>
 </table>
