@@ -19,7 +19,8 @@
             var pdata = JSON.parse(data);
             for (var i = 0; i < pdata.items.length; i++) {
 			pdata.items[i].yindex = i;
-			pdata.items[i].enclosure = 'http://www.archive.org/download/Sector5Radio.07.03.2010.hour.3/070310GeekFest.hr.3.mp3';
+			pdata.items[i].enclosure = i;
+			pdata.items[i].enclosure.url = 'http://www.archive.org/download/Sector5Radio.07.03.2010.hour.3/070310GeekFest.hr.3.mp3';
 	    }
             response.object = pdata;
             ]]>
