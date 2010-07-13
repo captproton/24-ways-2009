@@ -15,16 +15,6 @@
             <key id="q" type="xs:string" paramType="query"/>
             <key id="output" type="xs:string" paramType="query"/>
         </inputs>
-            <execute><![CDATA[
-            y.include("http://paul.donnelly.org/js/json2.js");   
-			var data = request.get().response,//call the url defined above         
-            var pdata = JSON.parse(data);
-            for (var i = 0; i < pdata.items.length; i++) {
-		pdata.items[i].yindex = i;
-	    }
-            response.object = pdata;
-            ]]>
-            </execute>
 
     </select>
 
