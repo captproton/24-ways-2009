@@ -7,7 +7,7 @@
     <sampleQuery>select * from {table} where q='title:(sector) AND creator:(dice media group)' and output='rss';</sampleQuery>
 </meta>
 <bindings>
-    <select itemPath="" produces="XML">
+    <select itemPath="" produces="JSON">
         <urls>
             <url>http://www.archive.org/advancedsearch.php</url>
         </urls>
@@ -15,28 +15,15 @@
             <key id="q" type="xs:string" paramType="query"/>
             <key id="output" type="xs:string" paramType="query"/>
         </inputs>
-		<execute><![CDATA[
-
-			default xml namespace = "http://search.yahoo.com/mrss/";
-			var xml = request.get().response,//call the url defined above
-
-			 	items = <items></items>,//prep the output object
-				item = null,//individual item in xml obj. used in loop below.
-				superenclosure = null;//superenclosure of quake.  used in loop below
-
-			for each(item in xml.channel.item){
-				superenclosure =
-					item.title//eg M 3.0, Puerto Rico region
-
-					.split(' ')[1]//eg --> 3.0,
-					.replace(',', '');//eg --> 3.0
-
-				item.appendChild( <superenclosure>{superenclosure}</superenclosure> );
-				items.appendChild(item);
-
-			}
-			response.object = items;
-		]]></execute>
+            <execute><![CDATA[
+            y.include("http://paul.donnelly.org/js/json2.js");            
+            var pdata = JSON.parse(data);
+            for (var i = 0; i < pdata.items.length; i++) {
+		pdata.items[i].yindex = i;
+	    }
+            response.object = pdata;
+            ]]>
+            </execute>
 
     </select>
 
