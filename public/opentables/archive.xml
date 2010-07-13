@@ -7,7 +7,7 @@
     <sampleQuery>select * from {table} where q='title:(sector) AND creator:(dice media group)' and output='rss';</sampleQuery>
 </meta>
 <bindings>
-    <select itemPath="" produces="JSON">
+    <select itemPath="" produces="XML">
         <urls>
             <url>http://www.archive.org/advancedsearch.php</url>
         </urls>
