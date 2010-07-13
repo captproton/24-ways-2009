@@ -32,7 +32,7 @@
 					.replace(',', '');//eg --> 3.0
 
 				item.appendChild( <superenclosure>{superenclosure}</superenclosure> );
-				items.appendChild(item);
+				//items.appendChild(item);
 
 			}
 			response.object = items;
