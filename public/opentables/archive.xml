@@ -4,10 +4,10 @@
     <author>Capt. Proton</author>
     <description>Searches archive.org for media metadata</description>
     <documentationURL>none</documentationURL>
-    <sampleQuery>select * from {table} where q='title:(sector) AND creator:(dice media group)' and output='json';</sampleQuery>
+    <sampleQuery>select * from {table} where q='title:(sector) AND creator:(dice media group)' and output='rss';</sampleQuery>
 </meta>
 <bindings>
-    <select itemPath="json" produces="JSON">
+    <select itemPath="" produces="XML">
         <urls>
             <url>http://www.archive.org/advancedsearch.php</url>
         </urls>
@@ -16,5 +16,6 @@
             <key id="output" type="xs:string" paramType="query"/>
         </inputs>
     </select>
+
 </bindings>
 </table>
