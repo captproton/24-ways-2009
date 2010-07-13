@@ -10,7 +10,7 @@
     <select itemPath="" produces="XML">
 		<urls>
 
-			<url>http://pipes.yahoo.com/pipes/pipe.run?_id=996b8c7f5c4268e6ea773aed7b2a98b6&_render=rss</url>
+			<url>http://pipes.yahoo.com/pipes/pipe.run?_id=996b8c7f5c4268e6ea773aed7b2a98b6&amp;_render=rss</url>
 		</urls>
 
     </select>
