@@ -35,7 +35,7 @@
 				//items.appendChild(item);
 
 			}
-			response.object = items;
+			response.object = item;
 		]]></execute>
 
     </select>
