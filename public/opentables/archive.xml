@@ -7,7 +7,7 @@
     <sampleQuery>select * from {table} where q='title:(sector) AND creator:(dice media group)' and output='json';</sampleQuery>
 </meta>
 <bindings>
-    <select itemPath="" produces="JSON">
+    <select itemPath="json" produces="JSON">
         <urls>
             <url>http://www.archive.org/advancedsearch.php</url>
         </urls>
