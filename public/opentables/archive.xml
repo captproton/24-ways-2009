@@ -20,7 +20,7 @@
 			default xml namespace = "http://search.yahoo.com/mrss/";
 			var xml = request.get().response,//call the url defined above
 
-			 	//channel = <channel></channel>,//prep the output object
+			 	items = <items></items>,//prep the output object
 				item = null,//individual item in xml obj. used in loop below.
 				superenclosure = null;//superenclosure of quake.  used in loop below
 
@@ -32,10 +32,10 @@
 					.replace(',', '');//eg --> 3.0
 
 				item.appendChild( <superenclosure>{superenclosure}</superenclosure> );
-				//items.appendChild(item);
+				items.appendChild(item);
 
 			}
-			response.object = item;
+			response.object = items;
 		]]></execute>
 
     </select>
