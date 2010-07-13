@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<table xmlns="http://query.yahooapis.com/v1/schema/table.xsd">
-  <meta>
-        <description>Collects the yahoo pipe for Sector Five Radio as an rss and adds the link mp3 of the show so that it can be listed in itunes.</description>
-	    <sampleQuery>SELECT * FROM {table} WHERE description like "%Dickie Shannon%"</sampleQuery>
-	    <sampleQuery>SELECT * FROM {table} WHERE title="Sector 5 Radio..07.10.2010.hour.3"</sampleQuery>
-
-  </meta>
-  <bindings>
-    <select itemPath="" produces="XML">
-		<urls>
-
-			<url>http://pipes.yahoo.com/pipes/pipe.run?_id=996b8c7f5c4268e6ea773aed7b2a98b6&amp;_render=rss</url>
-		</urls>
-
-    </select>
-  </bindings>
+<table xmlns="http://query.yahooapis.com/v1/schema/table.xsd" https="false">
+	<meta>
+		<author>%YOUR-NAME% (TableSaw)</author>
+		<description>let\'s tweet</description>
+		<documentationURL>none</documentationURL>
+		<sampleQuery>select * from {table} where q='title:(sector) AND creator:(dice media group)' and output='rss';</sampleQuery>
+	</meta>
+	<bindings>
+		<select itemPath="" produces="XML">
+			<urls>
+				<url>http://www.archive.org/advancedsearch.php</url>
+			</urls>
+			<inputs>
+				<key id="q" type="xs:string" paramType="query"/>
+				<key id="output" type="xs:string" paramType="query"/>
+			</inputs>
+		</select>
+	</bindings>
 </table>
