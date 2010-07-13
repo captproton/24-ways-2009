@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <table xmlns="http://query.yahooapis.com/v1/schema/table.xsd" https="false">
 <meta>
-    <author>%YOUR-NAME% (TableSaw)</author>
-    <description>let\'s tweet</description>
+    <author>Capt. Proton</author>
+    <description>Searches archive.org for media metadata</description>
     <documentationURL>none</documentationURL>
     <sampleQuery>select * from {table} where q='title:(sector) AND creator:(dice media group)' and output='json';</sampleQuery>
 </meta>
 <bindings>
-    <select itemPath="response.docs" produces="JSON">
+    <select itemPath="" produces="JSON">
         <urls>
             <url>http://www.archive.org/advancedsearch.php</url>
         </urls>
