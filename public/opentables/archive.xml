@@ -17,7 +17,7 @@
         </inputs>
 		<execute><![CDATA[
 
-			default xml namespace = "http://www.w3.org/2005/Atom";
+			default xml namespace = "http://search.yahoo.com/mrss/";
 			var xml = request.get().response,//call the url defined above
 
 			 	items = <items></items>,//prep the output object
