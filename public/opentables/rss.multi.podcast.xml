@@ -29,23 +29,8 @@
             feed = <feed/>;
             feed.title = content.results.rss[0].channel.title;
             feed.link = content.results.rss[0].channel.link;
-			feed.enclosure.@length = '11111';
-			feed.enclosure.@type= 'audio/mpeg';
-			feed.enclosure.@url = feed.link + 'me.mp3'
             for each(rss in content.results.rss){
-				item = <item/>;
-				item.title = rss.channel.item.title;
-				item.link  = rss.channel.item.link;
-				item.enclosure = "35 mb";
-				item.enclosure.@length = "1111";
-				item.enclosure.@url = "me.mp3";
-				out.item += item;
-//			  feedurl = '\<enclosure url="' + rss.channel.item.link.text() + '/' + 'you.mp3"' + '/\>';
-//              feed.item += <item>{rss.channel.item.title}{rss.channel.item.link}</item>;
-//			  var enclosure = document.createElement.("enclosure");
-//			  enclosure.setAttribute.("length", "1111");
-//			  feed.item.appendChild(enclosure);
-			  // feed.item.enclosure.@url= rss.channel.item.link;
+              feed.item += <item>{rss.channel.item.title}{rss.channel.item.link}{rss.channel.item.description}</item>;
             }
             out.feed += feed;
           }
