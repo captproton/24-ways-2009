@@ -30,23 +30,6 @@ class HomeController < ApplicationController
     
   end
 
-  def yql_search(query)
-     base_url = "http://query.yahooapis.com/v1/public/yql?format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
-     url = "#{base_url}&q=#{URI.encode(query)}"
-     resp = Net::HTTP.get_response(URI.parse(url))
-     data = resp.body
-
-     # we convert the returned JSON data to native Ruby
-     # data structure - a hash
-     result = JSON.parse(data)
-
-     # if the hash has 'Error' as a key, we raise an error
-     if result.has_key? 'Error'
-        raise "web service error"
-     end
-     ## @blogs = 
-     return result['query']['results']
-  end
 
   def undoYouTubeMarkupCrimes(string)
     cleaner  = string.gsub('/555px/','100%')

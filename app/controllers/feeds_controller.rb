@@ -1,4 +1,5 @@
 class FeedsController < ApplicationController
+  # see http://paulsturgess.co.uk/articles/show/13-creating-an-rss-feed-in-ruby-on-rails
   def index
     @feeds = Feed.all
   end
@@ -41,5 +42,11 @@ class FeedsController < ApplicationController
     @feed.destroy
     flash[:notice] = "Successfully destroyed feed."
     redirect_to feeds_url
+  end
+  
+  def rss
+    @feed = Feed.find(params[:id])
+    render :layout => false
+    response.headers["Content-Type"] = "application/xml; charset=utf-8"
   end
 end
