@@ -29,9 +29,6 @@
             feed = <feed/>;
             feed.title = content.results.rss[0].channel.title;
             feed.link = content.results.rss[0].channel.link;
-			feed.enclosure.@length = '11111';
-			feed.enclosure.@type= 'audio/mpeg';
-			feed.enclosure.@url = feed.link + 'me.mp3'
             for each(rss in content.results.rss){
 				// create query for scrape
 				var scrape = 'select \* from html where url="' + rss.channel.item.link.text() + '" ' + 'and xpath="//\*[\@id\=\'ff2\']//td[2]/a"';
