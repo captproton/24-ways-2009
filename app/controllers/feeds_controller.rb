@@ -1,6 +1,7 @@
 class FeedsController < ApplicationController
   # see http://paulsturgess.co.uk/articles/show/13-creating-an-rss-feed-in-ruby-on-rails
   def index
+    response.headers['Cache-Control'] = 'public, max-age=300'
     @feeds = Feed.all
   end
   
@@ -45,6 +46,7 @@ class FeedsController < ApplicationController
   end
   
   def rss
+    @feed_items = yql_search(yql_query).first.second.third.first.second
     @feed = Feed.find(params[:id])
     render :layout => false
     response.headers["Content-Type"] = "application/xml; charset=utf-8"

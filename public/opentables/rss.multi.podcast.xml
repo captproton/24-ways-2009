@@ -16,6 +16,7 @@
           var feedlist = feeds.split(',');
           if(!html){
           var out = <feeds/>;
+          for(var i=0,j=feedlist.length;i<j;i++){
             var f = feedlist[i];
             var q = 'select channel.title,channel.link,channel.item.title,channel.item.link';
             if(!compact){
@@ -25,25 +26,13 @@
             y.log(q);
             var content = y.query(q);
             y.log(content.results.rss);
+            feed = <feed/>;
+            feed.title = content.results.rss[0].channel.title;
+            feed.link = content.results.rss[0].channel.link;
             for each(rss in content.results.rss){
-				// create query for scrape
-				var scrape = 'select \* from html where url="' + rss.channel.item.link.text() + '" ' + 'and xpath="//\*[\@id\=\'ff2\']//td[2]/a"';
-
-				y.log(scrape);
-				// get scrape results
-				var scrape_content = y.query(scrape);
-				// y.log(scrape_content.results.a);
-				
-				item = <item/>;
-				item.title = rss.channel.item.title;
-				item.link  = rss.channel.item.link;
-				item.enclosure.@type = 'audio/mpeg';
-				item.enclosure.@length = "1111";
-				item.enclosure.@url = 'http://www.archive.org' + scrape_content.results.a.@href;
-				item.description = rss.channel.item.description + '- A Dice Media Group Production';
-				
-				out.item += item;
+              feed.item += <item>{rss.channel.item.title}{rss.channel.item.link}{rss.channel.item.description}</item>;
             }
+            out.feed += feed;
           }
           
           } else {
@@ -56,13 +45,21 @@
             }
             q += ' from xml where url='+f;
             var content = y.query(q);
+            feed = <div class="feed"/>;
+            feed.h2 = <h2/>;
+            feed.h2.a = <a/>;
+            feed.h2.a.@href = content.results.rss[0].channel.link.text();
+            feed.h2.a.content = content.results.rss[0].channel.title.text();
+            feed.ul = <ul/>;
             for each(rss in content.results.rss){
               var li = <li/>;
               li.a = <a/>;
               li.a.@href = rss.channel.item.link.text();
               li.a.content = rss.channel.item.title.text();
               li.p = <p>{rss.channel.item.description.text()}</p>;
+              feed.ul.li += li;
             }
+            out.feed += feed;
           }
           
           }
