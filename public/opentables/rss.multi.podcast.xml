@@ -35,7 +35,7 @@
             for each(rss in content.results.rss){
 				// create query for scrape
 				var scrape = 'select ';
-				var scrape += '* from ';
+				var scrape += '\* from ';
 				var scrape += 'html where url=\"';
 				var scrape += rss.channel.item.link.text() + '"';
 //				var scrape += '" and xpath="';
