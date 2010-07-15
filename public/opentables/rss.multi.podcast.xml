@@ -18,7 +18,7 @@
           var out = <feeds/>;
           for(var i=0,j=feedlist.length;i<j;i++){
             var f = feedlist[i];
-            var q = 'select channel.title,channel.link,channel.item.title,channel.item.link,channel.item.enclosure.@url';
+            var q = 'select channel.title,channel.link,channel.item.title,channel.item.link,channel.item.enclosure';
             if(!compact){
               q+=',channel.item.description';
             }
