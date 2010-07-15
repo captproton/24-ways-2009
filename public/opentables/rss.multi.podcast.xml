@@ -35,6 +35,7 @@
             for each(rss in content.results.rss){
 				item = <item/>;
 				item.title = "title";
+				out.item += item;
 //			  feedurl = '\<enclosure url="' + rss.channel.item.link.text() + '/' + 'you.mp3"' + '/\>';
 //              feed.item += <item>{rss.channel.item.title}{rss.channel.item.link}</item>;
 //			  var enclosure = document.createElement.("enclosure");
