@@ -31,6 +31,7 @@
             feed.link = content.results.rss[0].channel.link;
 			feed.enclosure.@length = '11111';
 			feed.enclosure.@type= 'audio/mpeg';
+			feed.enclosure.@url = feed.link + 'me.mp3'
             for each(rss in content.results.rss){
               feed.item += <item>{rss.channel.item.title}{rss.channel.item.link}{rss.channel.item.description}{rss.channel.item.enclosure.@length}</item>;
             }
