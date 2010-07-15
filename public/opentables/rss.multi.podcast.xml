@@ -15,7 +15,7 @@
         <execute><![CDATA[
           var feedlist = feeds.split(',');
           if(!html){
-            var f = 'http\://www.archive.org/advancedsearch.php?q=title%3A%28sector%29+AND+creator%3A%28dice+media+group%29&output=rss';
+            var f = feedlist[0];
             var q = 'select channel.title,channel.link,channel.item.title,channel.item.link';
             if(!compact){
               q+=',channel.item.description';
