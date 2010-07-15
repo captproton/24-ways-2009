@@ -13,13 +13,15 @@
         <key id="compact" type="xs:string" paramType="variable" required="false"/>
       </inputs>
         <execute><![CDATA[
-			f = 'http://www.archive.org/advancedsearch.php?q=title%3A%28sector%29+AND+creator%3A%28dice+media+group%29&output=rss';
+          var feedlist = feeds.split(',');
           if(!html){
+          for(var i=0,j=feedlist.length;i<j;i++){
+            var f = feedlist[i];
             var q = 'select channel.title,channel.link,channel.item.title,channel.item.link';
             if(!compact){
               q+=',channel.item.description';
             }
-            q += ' from feed where url='+f;
+            q += ' from xml where url='+f;
             y.log(q);
             var content = y.query(q);
             y.log(content.results.rss);
@@ -44,6 +46,22 @@
           
           } else {
           var out = <div class="feeds"/>;
+          for(var i=0,j=feedlist.length;i<j;i++){
+            var f = feedlist[i];
+            var q = 'select channel.title,channel.link,channel.item.title,channel.item.link';
+            if(!compact){
+              q+=',channel.item.description';
+            }
+            q += ' from xml where url='+f;
+            var content = y.query(q);
+            for each(rss in content.results.rss){
+              var li = <li/>;
+              li.a = <a/>;
+              li.a.@href = rss.channel.item.link.text();
+              li.a.content = rss.channel.item.title.text();
+              li.p = <p>{rss.channel.item.description.text()}</p>;
+            }
+          }
           
           }
           response.object = out;
