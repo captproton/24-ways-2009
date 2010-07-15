@@ -15,7 +15,8 @@
         <execute><![CDATA[
           var feedlist = feeds.split(',');
           if(!html){
-            var f = feedlist[0];
+          var out = <feeds/>;
+            var f = feedlist[i];
             var q = 'select channel.title,channel.link,channel.item.title,channel.item.link';
             if(!compact){
               q+=',channel.item.description';
@@ -39,8 +40,10 @@
 				item.enclosure.@type = 'audio/mpeg';
 				item.enclosure.@length = "1111";
 				item.enclosure.@url = 'http://www.archive.org' + scrape_content.results.a.@href;
+				item.description = rss.channel.item.description + '- A Dice Media Group Production';
+				
 				out.item += item;
-
+            }
           }
           
           } else {
