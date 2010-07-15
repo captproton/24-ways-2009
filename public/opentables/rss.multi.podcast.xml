@@ -45,7 +45,7 @@
 				item.anchor = "a";
 				item.title = rss.channel.item.title;
 				item.link  = rss.channel.item.link;
-				item.enclosure.type = 'audio/mpeg';
+				item.enclosure.@type = 'audio/mpeg';
 				item.enclosure.@length = "1111";
 				item.enclosure.@url = 'http://www.archive.org' + scrape_content.results.a.@href;
 				out.item += item;
