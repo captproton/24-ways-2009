@@ -34,7 +34,7 @@
 			feed.enclosure.@url = feed.link + 'me.mp3'
             for each(rss in content.results.rss){
 				// create query for scrape
-				var scrape = 'select \* from html where url="';
+				var scrape = 'select \* from html where url=\"';
 				var scrape += 'http://www.archive.org/details/Sector5Radio.07.03.2010.hour.1.part.2';
 				var scrape += '" and xpath="';
 				var scrape += '//\*[@id\=\'ff2\']';
