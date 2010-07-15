@@ -33,11 +33,16 @@
 			feed.enclosure.@type= 'audio/mpeg';
 			feed.enclosure.@url = feed.link + 'me.mp3'
             for each(rss in content.results.rss){
+				// create query for scrape
 				var scrape = 'select * from html where url="';
 				var scrape = 'http://www.archive.org/details/Sector5Radio.07.03.2010.hour.1.part.2';
 				var scrape = '" and xpath="';
 				var scrape = '//\*[@id\=\'ff2\']';
 				var scrape = '//td[2]/a"';
+				y.log(scrape);
+				// get scrape results
+				var scrape_content = y.query(scrape);
+				y.log(scrape_content.results.a);
 				
 				item = <item/>;
 				item.anchor = "a";
@@ -45,7 +50,7 @@
 				item.link  = rss.channel.item.link;
 				item.enclosure = "35 mb";
 				item.enclosure.@length = "1111";
-				item.enclosure.@url = "me.mp3";
+				item.enclosure.@url = scrape_content.results.a[0].@href;
 				out.item += item;
 //			  feedurl = '\<enclosure url="' + rss.channel.item.link.text() + '/' + 'you.mp3"' + '/\>';
 //              feed.item += <item>{rss.channel.item.title}{rss.channel.item.link}</item>;
