@@ -45,16 +45,10 @@
 				item.anchor = "a";
 				item.title = rss.channel.item.title;
 				item.link  = rss.channel.item.link;
-				// item.enclosure = "35 mb";
+				item.enclosure.type = 'audio/mpeg';
 				item.enclosure.@length = "1111";
-				item.enclosure.@url = scrape_content.results.a.@href;
+				item.enclosure.@url = 'http://www.archive.org' + scrape_content.results.a.@href;
 				out.item += item;
-//			  feedurl = '\<enclosure url="' + rss.channel.item.link.text() + '/' + 'you.mp3"' + '/\>';
-//              feed.item += <item>{rss.channel.item.title}{rss.channel.item.link}</item>;
-//			  var enclosure = document.createElement.("enclosure");
-//			  enclosure.setAttribute.("length", "1111");
-//			  feed.item.appendChild(enclosure);
-			  // feed.item.enclosure.@url= rss.channel.item.link;
             }
             out.feed += feed;
           }
