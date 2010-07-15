@@ -34,14 +34,14 @@
 			feed.enclosure.@url = feed.link + 'me.mp3'
             for each(rss in content.results.rss){
 				// create query for scrape
-				var scrape = 'select ';
-				var scrape += '\* from ';
-				var scrape += 'html where url=\"';
-				var scrape += rss.channel.item.link.text() + '"';
+//				var scrape = 'select ';
+//				var scrape += '\* from ';
+//				var scrape += 'html where url=\"';
+//				var scrape += rss.channel.item.link.text() + '"';
 //				var scrape += '" and xpath="';
 //				var scrape += '//\*[@id\=\'ff2\']';
 //				var scrape += '//td[2]/a"';
-				y.log(scrape);
+				y.log(y.alias.sector5mp3link);
 				// get scrape results
 				// var scrape_content = y.query(scrape);
 				// y.log(scrape_content.results.a);
