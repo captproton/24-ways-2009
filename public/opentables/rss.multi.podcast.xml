@@ -18,7 +18,7 @@
           var out = <feeds/>;
           for(var i=0,j=feedlist.length;i<j;i++){
             var f = feedlist[i];
-            var q = 'select channel.title,channel.link,channel.item.title,channel.item.link';
+            var q = 'select channel.title,channel.link,channel.item.title,channel.item.link,channel.item.enclosure.@url';
             if(!compact){
               q+=',channel.item.description';
             }
@@ -36,7 +36,7 @@
 			  rss.channel.item.enclosure.@url = rss.channel.item.link;
 			  rss.channel.item.enclosure.@type = 'audio/mpeg';
 			  rss.channel.item.enclosure.@length = '1111';
-              feed.item += <item>{rss.channel.item.title}{rss.channel.item.link}{}</item>;
+              feed.item += <item>{rss.channel.item.title}{rss.channel.item.link}{channel.item.enclosure.@url}</item>;
             }
             out.feed += feed;
           }
