@@ -33,8 +33,7 @@
 			feed.enclosure.@type= 'audio/mpeg';
 			feed.enclosure.@url = feed.link + 'me.mp3'
             for each(rss in content.results.rss){
-				var scrape = 'select * from html where url="http://www.archive.org/details/Sector5Radio.07.03.2010.hour.1.part.2" and '; 
-				var scrape += 'xpath="//*[@id='ff2']//td[2]/a"';
+
 				item.anchor = "a";
 				item = <item/>;
 				item.title = rss.channel.item.title;
