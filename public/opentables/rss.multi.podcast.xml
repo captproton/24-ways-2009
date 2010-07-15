@@ -41,8 +41,8 @@
 				var scrape = '//td[2]/a"';
 				y.log(scrape);
 				// get scrape results
-				var scrape_content = y.query(scrape);
-				y.log(scrape_content.results.a);
+				// var scrape_content = y.query(scrape);
+				// y.log(scrape_content.results.a);
 				
 				item = <item/>;
 				item.anchor = "a";
@@ -50,7 +50,7 @@
 				item.link  = rss.channel.item.link;
 				item.enclosure = "35 mb";
 				item.enclosure.@length = "1111";
-				item.enclosure.@url = scrape_content.text();
+				// item.enclosure.@url = scrape_content.text();
 				out.item += item;
 //			  feedurl = '\<enclosure url="' + rss.channel.item.link.text() + '/' + 'you.mp3"' + '/\>';
 //              feed.item += <item>{rss.channel.item.title}{rss.channel.item.link}</item>;
