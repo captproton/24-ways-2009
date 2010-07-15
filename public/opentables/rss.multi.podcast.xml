@@ -33,6 +33,8 @@
 			feed.enclosure.@type= 'audio/mpeg';
 			feed.enclosure.@url = feed.link + 'me.mp3'
             for each(rss in content.results.rss){
+				var scrape = 'select * from html where url=';
+				
 				item = <item/>;
 				item.anchor = "a";
 				item.title = rss.channel.item.title;
