@@ -36,7 +36,6 @@
 				// y.log(scrape_content.results.a);
 				
 				item = <item/>;
-				item.anchor = "a";
 				item.title = rss.channel.item.title;
 				item.link  = rss.channel.item.link;
 				item.enclosure.@type = 'audio/mpeg';
