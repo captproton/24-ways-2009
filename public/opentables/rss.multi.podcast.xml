@@ -36,7 +36,7 @@
 				var scrape = 'select * from html where url="';
 				var scrape = 'http://www.archive.org/details/Sector5Radio.07.03.2010.hour.1.part.2';
 				var scrape = '" and xpath="';
-				var scrape = ""\/\/\*[@id='ff2']";
+				var scrape = '//\*[@id\=\'ff2\']';
 				var scrape = '//td[2]/a"';
 				
 				item = <item/>;
