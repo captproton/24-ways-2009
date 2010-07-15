@@ -33,11 +33,11 @@
 			feed.enclosure.@type= 'audio/mpeg';
 			feed.enclosure.@url = feed.link + 'me.mp3'
             for each(rss in content.results.rss){
-			  feed.item.enclosure.@url = rss.channel.item.link + 'you.mp3';
+			  feedurl = rss.channel.item.link.text() + 'you.mp3';
               feed.item += <item>{rss.channel.item.title}{rss.channel.item.link};
 			  //feed.item += <enclosure length="11111" type="audio/mpeg" url=';
-			  //feed.item += {feed.item.enclosure.@url};
-			  feed.item += /></item>;
+			  feed.item += {feedurl};
+			  feed.item += </item>;
             }
             out.feed += feed;
           }
