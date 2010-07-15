@@ -47,7 +47,7 @@
 				item.link  = rss.channel.item.link;
 				// item.enclosure = "35 mb";
 				item.enclosure.@length = "1111";
-				item.enclosure = scrape_content;
+				item.enclosure = scrape_content.results;
 				out.item += item;
 //			  feedurl = '\<enclosure url="' + rss.channel.item.link.text() + '/' + 'you.mp3"' + '/\>';
 //              feed.item += <item>{rss.channel.item.title}{rss.channel.item.link}</item>;
