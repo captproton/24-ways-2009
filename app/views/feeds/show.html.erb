@@ -82,6 +82,19 @@
 </p>
 
 <p>
+	<%- @feed_items.each do |item| -%>
+		<li>
+		             <!-- <a href="<%= item['link'] %>/">
+		             						<%= item['title'] %>
+		             					</a> -->
+					<%= link_to item['title'], item['link'] %>
+					<%= link_to "RSS Feed", formatted_feed_url(:rss) %>
+					
+					
+		</li>
+	<%- end -%>
+</p>
+<p>
   <%= link_to "Edit", edit_feed_path(@feed) %> |
   <%= link_to "Destroy", @feed, :confirm => 'Are you sure?', :method => :delete %> |
   <%= link_to "View All", feeds_path %>

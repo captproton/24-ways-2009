@@ -2,10 +2,10 @@
 <p>Find me in app/views/blog/show.html.erb</p>
 <%= @source %>
 <p>===</p>
+<%# link = @source %>
 <h1><%= @blog['title'] %></h1>
-	<p>Decription:  <%=  @blog['description'] %></p>
-	<p>Story:</p>
-	<p><%= @blog['encoded'] %></p>
-<%# @blog.each do |article| %>
-	<p><%#= article['title'] %></p>
-<%# end %>
+	<strong>Published <%= Time.now.to_s(:long) %></strong>
+
+	<h3>Story:</h3>
+	<p>content goes here <%=  @blog['encoded'] %></p>
+	<p>Original Source:  <%= link_to "Original Article", @blog['link'] %></p>

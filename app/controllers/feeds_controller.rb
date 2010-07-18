@@ -6,7 +6,11 @@ class FeedsController < ApplicationController
   end
   
   def show
+    @feeds = Feed.all
     @feed = Feed.find(params[:id])
+    yql_query = 'select title,link from rss where url="http://feeds.feedburner.com/wait-till-i/gwZf"'
+    @feed_items = yql_search(yql_query).first.second.third.first.second
+    
 
   end
   
@@ -45,10 +49,4 @@ class FeedsController < ApplicationController
     redirect_to feeds_url
   end
   
-  def rss
-    @feed_items = yql_search(yql_query).first.second.third.first.second
-    @feed = Feed.find(params[:id])
-    render :layout => false
-    response.headers["Content-Type"] = "application/xml; charset=utf-8"
-  end
 end

@@ -1,14 +1,16 @@
 <div class="yui-g">
   <div class="yui-u first">
-    <h2>My Blog</h2>
+    <h2>My Blog (<%= link_to "more", blogs_path() %>)</h2>
 	
 	<ul id="blog" >
-	<%- @blog_articles.each do |article| -%>
+	<%- @blog_articles.each do |a| -%>
 		<li>
-		             <!-- <a href="<%= article['link'] %>/">
-		             						<%= article['title'] %>
+		             <!-- <a href="<%= a['link'] %>/">
+		             						<%= a['title'] %>
 		             					</a> -->
-					<%= link_to article['title'], blogs_path(:source => URI.escape(article['link'], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))) %>
+					<%= link_to a['title'], :controller => "articles", :source => URI.escape(a['link'], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]")) %>
+					<%# link_to a['title'], blogs_path(:source => URI.escape(a['link'], Regexp.new("[^#{URI::PATTERN::UNRESERVED}]"))) %>
+					<%# link_to "articles", stuff_path() %>
 					
 		</li>
 	<%- end -%>
